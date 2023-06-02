@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.bodyIndex {
+  background-color: black;
+  font-family: 'Goudy Bookletter 1911', serif; }
+  .bodyIndex header h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 25px;
+    margin-bottom: 40px; }
+  .bodyIndex header nav .vinculosPrincipales {
+    width: 20%;
+    border: 2px white solid; }
+    .bodyIndex header nav .vinculosPrincipales .ulNav {
+      display: flex;
+      list-style: none;
+      gap: 15px; }
+      .bodyIndex header nav .vinculosPrincipales .ulNav .liHome {
+        text-decoration: none; }
+        .bodyIndex header nav .vinculosPrincipales .ulNav .liHome .liClass {
+          text-decoration: none;
+          font-size: 18px;
+          font-family: 'Goudy Bookletter 1911', serif;
+          color: white; }
+
+main div .imagenJordan {
+  width: 100%; }
+
+main .divTienda {
+  background-color: #D9D9D9;
+  text-align: center; }
+  main .divTienda .anclaTienda {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: 'Goudy Bookletter 1911', serif; }
+
+footer .porQueSneakers {
+  text-align: center;
+  color: white;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 20px;
+  margin-top: 50px; }
+  footer .porQueSneakers .ulProductos {
+    list-style: none;
+    text-align: center; }
+
+footer .logoFinal {
+  font-family: 'Goudy Bookletter 1911', serif;
+  text-align: right;
+  color: white;
+  font-size: 50px;
+  margin-top: 60px;
+  padding-right: 10px; }
+
+.headerTienda {
+  background-color: black;
+  width: 100%;
+  color: white;
+  height: 30px; }
+  .headerTienda .divHeader {
+    margin-bottom: 30px; }
+    .headerTienda .divHeader p {
+      text-align: center;
+      font-family: 'Goudy Bookletter 1911', serif;
+      font-size: 20px; }
+  .headerTienda nav .divInicio {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Goudy Bookletter 1911', serif;
+    list-style: none; }
+    .headerTienda nav .divInicio ul .liAnclas {
+      display: flex;
+      gap: 15px; }
+      .headerTienda nav .divInicio ul .liAnclas a .imgTienda2Clase {
+        width: 30px;
+        height: 30px; }
+
+main .titulo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 10px; }
+  main .titulo .h1Tienda {
+    text-align: left;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: black;
+    font-size: 60px; }
+
+main .section1 {
+  text-align: center;
+  color: black;
+  background-image: url(../assets/img/nike-just-do-it.jpg); }
+  main .section1 .divSection1 {
+    margin-top: 10px;
+    margin-bottom: 30px; }
+    main .section1 .divSection1 .h2Tienda {
+      font-size: 45px;
+      font-family: 'Goudy Bookletter 1911', serif; }
+    main .section1 .divSection1 .parrafoTienda {
+      font-family: 'Goudy Bookletter 1911', serif;
+      font-size: 25px; }
+
+main .section2 {
+  text-align: center;
+  color: black; }
+  main .section2 p {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 25px; }
+  main .section2 strong {
+    font-size: 30px; }
+  main .section2 img {
+    width: 100%; }
+
+main .divProductos {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 10px; }
+  main .divProductos .h4Yh5 {
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif; }
+
+main .section3 {
+  color: black;
+  display: flex;
+  justify-content: center; }
+  main .section3 .contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px; }
+    main .section3 .contenedor div {
+      display: block;
+      width: 200px;
+      height: 300px; }
+      main .section3 .contenedor div .imgZapas {
+        width: 247px;
+        height: 222px;
+        object-fit: cover; }
+
+main .divMarcas {
+  margin-top: 70px;
+  margin-bottom: 80px;
+  padding-left: 10px; }
+  main .divMarcas .h4Yh5 {
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif; }
+
+main .sectionFinal {
+  text-align: center; }
+  main .sectionFinal div .strong {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  main .sectionFinal div .parrafoSneakers {
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  main .sectionFinal .divConocenos {
+    font-size: 25px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    margin-top: 30px; }
+    main .sectionFinal .divConocenos .conocenosAncla {
+      text-decoration: none;
+      background-color: black;
+      color: white; }
+
+.galeria {
+  height: 800px;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "classJordan classImgAd classImgNike" "classJordan classImgJanoski classImgSb";
+  gap: 10px; }
+  .galeria img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+.classJordan {
+  grid-area: classJordan;
+  padding-left: 20px; }
+
+.classImgAd {
+  grid-area: classImgAd; }
+
+.classImgNike {
+  grid-area: classImgNike; }
+
+.classImgJanoski {
+  grid-area: classImgJanoski; }
+
+.classImgSb {
+  grid-area: classImgSb; }
+
+.footerFinal {
+  background-color: black;
+  color: white;
+  margin-top: 100px; }
+  .footerFinal .divFooterFinal {
+    margin-left: 25px;
+    padding-top: 30px; }
+    .footerFinal .divFooterFinal .ulFooter {
+      list-style: none; }
+      .footerFinal .divFooterFinal .ulFooter li .anclaPreguntas {
+        text-decoration: none;
+        color: white; }
+  .footerFinal .contenedorLis {
+    display: flex;
+    justify-content: center; }
+    .footerFinal .contenedorLis ul .liLogos {
+      list-style: none; }
+      .footerFinal .contenedorLis ul .liLogos a .logosLiImg {
+        width: 40px;
+        height: 40px; }
+  .footerFinal .hFinal {
+    padding-right: 10px; }
+    .footerFinal .hFinal .h6Final {
+      text-align: right;
+      color: white;
+      font-family: 'Goudy Bookletter 1911', serif;
+      font-size: 60px; }
+
+header .h1Sesion {
+  text-align: center;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 60px; }
+
+header nav .divInicio {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Goudy Bookletter 1911', serif;
+  list-style: none; }
+  header nav .divInicio ul .liAnclas {
+    display: flex;
+    gap: 15px; }
+    header nav .divInicio ul .liAnclas a .imgTienda2Clase {
+      width: 30px;
+      height: 30px; }
+
+main .divH2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 10px; }
+  main .divH2 .h2Sesion {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 30px; }
+
+main form .divUsername {
+  margin-bottom: 15px;
+  margin-top: 15px; }
+  main form .divUsername .h3Yh4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif; }
+
+main form .divFormulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  main form .divFormulario .inputUsername {
+    width: 25%;
+    height: 50px;
+    text-align: center; }
+
+main form .divUsername {
+  margin-bottom: 15px;
+  margin-top: 15px; }
+  main form .divUsername .h3Yh4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif; }
+
+main form .divFormulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  main form .divFormulario .inputUsername {
+    width: 25%;
+    height: 50px;
+    text-align: center; }
+
+main form .divBoton {
+  text-align: center;
+  margin-top: 45px;
+  padding-top: 5px; }
+
+main .divCuenta {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  padding-top: 30px; }
+  main .divCuenta .anclaRegistrate {
+    text-decoration: none;
+    color: black; }
+
+main .divClassH2 {
+  margin-bottom: 15px;
+  margin-left: 15px; }
+  main .divClassH2 .h2Registrate {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif; }
+
+main .divParrafo {
+  color: 909090;
+  text-align: left;
+  font-family: 'Goudy Bookletter 1911', serif;
+  margin-bottom: 30px;
+  padding-left: 15px; }
+
+main form .divNombre {
+  display: flex; }
+  main form .divNombre .divNombre1 {
+    margin-right: 250px;
+    margin-bottom: 10px;
+    margin-left: 15px; }
+    main form .divNombre .divNombre1 .inputNombre {
+      width: 100%;
+      height: 50px; }
+  main form .divNombre .divNombre2 .inputNombre {
+    width: 100%;
+    height: 50px; }
+
+main form .divCorreoElectronico {
+  margin-top: 40px;
+  margin-left: 15px; }
+  main form .divCorreoElectronico .inputCorreoElectronico {
+    width: 1234px;
+    height: 102px; }
+
+main .divRegistrarse {
+  text-align: center;
+  font-size: medium;
+  font-family: 'Goudy Bookletter 1911', serif; }
+  main .divRegistrarse .parrafoRegistrarse {
+    padding-top: 50px; }
+
+main .divBoton {
+  text-align: center;
+  margin-top: 45px;
+  padding-top: 5px; }
+
+main .sectionFinal .divStrong .parrafoZapas {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+main div .imgNos {
+  width: 1340px;
+  height: 878px; }
+
+main section .h2ContactoDiv {
+  margin-left: 15px;
+  margin-top: 25px; }
+  main section .h2ContactoDiv .h2Contacto {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif; }
+
+main section .divContacto .parrafoContacto {
+  text-align: center;
+  font-size: larger;
+  font-family: 'Goudy Bookletter 1911', serif;
+  padding-bottom: 30px; }
+
+main section .divInput {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 15px; }
+  main section .divInput .inputCorreoElectronico1 {
+    width: 1234px;
+    height: 102px; }
+
+main section .divInput .inputMensaje {
+  width: 1266px;
+  height: 282px; }
+
+main section .divBotonazo {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 60px; }
+  main section .divBotonazo .botonMensaje {
+    width: 275px;
+    height: 70px; }
