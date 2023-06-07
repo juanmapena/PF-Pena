@@ -1,0 +1,19 @@
+main{
+    div{
+        .imagenJordan{
+            width: 100%;
+        }
+
+    }
+    .divTienda{
+        background-color: #D9D9D9;
+        text-align: center;
+        .anclaTienda{
+            text-decoration: none;
+            color: $color-2;
+            font-size: 40px;
+            font-family: $letra;
+        }
+
+    }
+}

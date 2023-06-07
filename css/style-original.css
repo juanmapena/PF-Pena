@@ -654,3 +654,877 @@ font-family: 'Inspiration', cursive; */
     padding-left: 15px;
     padding-right: 15px;
 }
+
+@media (max-width: 1440px) {
+
+
+    /* tienda.html */
+    .imagenMain {
+        width: 60%;
+    }
+
+    .section3 .contenedor {
+        gap: 140px;
+    }
+
+    .divProductos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* sesion.html */
+
+    .h1Sesion {
+        padding-top: 10px;
+    }
+
+    .divInicio {
+        padding-right: 5px;
+    }
+
+
+    .divH2 {
+        margin-bottom: 35px;
+    }
+
+
+    .divFormulario {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+
+
+    .inputUsername {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+
+    }
+
+
+    .divBoton {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+
+    .divFooterFinal {
+        font-size: 20px;
+    }
+
+
+    .botonSesion {
+        font-size: 16px;
+    }
+
+
+
+    /* nosycontacto.html */
+
+    .imgNos {
+        width: 100%;
+
+    }
+
+    .inputCorreoElectronico1 {
+        width: 80%;
+        height: 102px;
+    }
+
+    .inputMensaje {
+        width: 80%;
+        height: 282px;
+    }
+
+
+}
+
+
+@media (max-width:1250px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 24%;
+    }
+
+
+}
+
+
+@media (max-width:1030px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 30%;
+    }
+
+
+}
+
+
+
+@media (max-width:1024px) {
+
+    /*index.html */
+
+    .vinculosPrincipales {
+        width: 25%;
+        font-size: 16px;
+    }
+
+    /* tienda.html */
+
+    .divInicio {
+        padding-right: 50px;
+    }
+
+    .titulo {
+        padding-left: 10px;
+    }
+
+
+    .divProductos {
+        padding-left: 10px;
+    }
+
+
+
+    .section3 .contenedor {
+        gap: 80px;
+
+    }
+
+
+    .section3 div {
+        width: 300px;
+    }
+
+
+    .divMarcas {
+        padding-left: 10px;
+    }
+
+    .parrafoSneakers {
+        padding-right: 40px;
+    }
+
+
+    .divFooterFinal {
+        padding-left: 10px;
+    }
+
+    .hFinal {
+        padding-right: 50px;
+    }
+
+    /* sesion.html */
+
+    .h1Sesion {
+        padding-top: 10px;
+    }
+
+    .divH2 {
+        margin-bottom: 15px;
+    }
+
+    .divFormulario {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+
+    .divBoton {
+        padding-top: 30px;
+    }
+
+    .divInicio {
+        padding-right: 5px;
+    }
+
+    .divFooterFinal {
+        font-size: 20px;
+    }
+
+
+    /* registrate.html */
+
+    .parrafoRegistrarse {
+        padding-right: 200px;
+    }
+
+
+
+    .inputCorreoElectronico {
+        width: 80%;
+    }
+
+
+    .divNombre2 {
+        margin: 0px;
+    }
+
+
+
+}
+
+
+@media (max-width:995px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 30%;
+    }
+
+
+}
+
+
+@media (max-width:835px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 35%;
+    }
+
+
+}
+
+
+
+@media (max-width:768px) {
+
+    /*index.html */
+
+    .vinculosPrincipales {
+        width: 35%;
+    }
+
+
+
+    .anclaTienda {
+        font-size: 30px;
+    }
+
+
+
+    .porQueSneakers {
+        margin-bottom: 150px;
+        padding-top: 30px;
+        font-size: 19px;
+    }
+
+    /* tienda.html */
+    .headerTienda {
+        width: 768px;
+    }
+
+    /*sesion.html  */
+
+
+    .imgTienda2Clase {
+        width: 25px;
+        height: 25px;
+    }
+
+    .botonSesion {
+        font-size: 16px;
+    }
+
+
+    .divBoton {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+    .hFinal {
+        margin-top: 30px;
+        padding-right: 20px;
+    }
+
+
+
+    /* nosycontacto.html */
+
+
+    .h2ContactoDiv {
+        margin-bottom: 30px;
+    }
+
+    .parrafoContacto {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .inputCorreoElectronico1 {
+        width: 90%;
+    }
+
+    .inputMensaje {
+        width: 90%;
+    }
+
+
+    /* registrate.html */
+
+    .divRegistrarse {
+        padding-left: 170px;
+        margin-bottom: 30px;
+    }
+
+    .inputCorreoElectronico {
+        width: 90%;
+    }
+
+
+
+}
+
+
+@media (max-width:720px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 40%;
+    }
+
+
+
+    /* nosycontacto.html */
+
+    .imgNos{
+        width: 106%;
+
+    }
+
+    .footerFinal{
+        width: 106%;
+    }
+
+
+}
+
+@media (max-width:736px) {
+
+
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 104%;
+    }
+
+    .footerFinal{
+        width: 104%;
+    }
+
+
+    
+
+
+    }
+
+
+    @media (max-width:650px) {
+        
+        /* nosycontactohtml */
+
+        .imgNos{
+            width: 117%;
+        }
+
+        .footerFinal{
+            width: 117%;
+        }
+
+
+
+        }
+
+
+@media (max-width:621px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 50%;
+    }
+
+    /* nosycontacto.html */
+
+    .imgNos{
+        width: 123%;
+
+    }
+
+    .divStrong{
+        padding-left: 100px;
+    }
+
+    .footerFinal{
+        width: 123%;
+    }
+
+
+}
+
+
+
+@media (max-width:550px) {
+        
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 139%;
+    }
+
+    .footerFinal{
+        width: 139%;
+    }
+
+    .inputCorreoElectronico1{
+        width: 130%;
+    }
+
+    .inputMensaje{
+        width: 130%;
+    }
+
+    .divBotonazo{
+        padding-left: 200px;
+    }
+
+
+
+    }
+
+
+
+
+@media (max-width:500px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 55%;
+    }
+
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 153%;
+
+    }
+
+    .divStrong{
+        padding-left: 150px;
+    }
+
+    .footerFinal{
+        width: 153%;
+    }
+
+    .inputCorreoElectronico1{
+        width: 130%;
+    }
+
+    .inputMensaje{
+        width: 130%;
+    }
+
+    .divBotonazo{
+        padding-left: 200px;
+    }
+
+}
+
+
+
+@media (max-width:451px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 60%;
+    }
+
+
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 170%;
+
+    }
+
+    .footerFinal{
+        width: 170%;
+    }
+
+
+}
+
+
+
+
+@media (max-width:425px) {
+
+    /*index.html */
+
+    .h1 {
+        font-size: 50px;
+    }
+
+    .imagenJordan {
+        height: 400px;
+
+    }
+
+    .vinculosPrincipales {
+        width: 65%;
+    }
+
+    .liClass {
+        font-size: 20px;
+    }
+
+
+    .anclaTienda {
+        font-size: 35px;
+    }
+
+    .porQueSneakers {
+        font-size: 25px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+    }
+
+    .logoFinal {
+        font-size: 50px;
+        padding-top: 80px;
+    }
+
+
+    /* sesion.html */
+
+
+
+    .imgTienda2Clase {
+        height: 25px;
+        width: 25px;
+    }
+
+    .divH2 {
+        margin-bottom: 55px;
+        margin-top: 55px;
+    }
+
+    .h3Yh4 {
+        font-size: 25px;
+    }
+
+    .inputUsername {
+        width: 50%;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .botonSesion {
+        font-size: 16px;
+    }
+
+    .divBoton {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+
+    .contenedorLis {
+        padding-top: 80px;
+    }
+
+
+
+    /* nosycontacto.html */
+
+    .headerTienda {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .imgNos {
+        margin-bottom: 15px;
+        height: 400px;
+    }
+
+    .h2ContactoDiv {
+        margin-bottom: 20px;
+    }
+
+    .parrafoContacto {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .inputCorreoElectronico1 {
+        width: 90%;
+        height: 102px;
+    }
+
+    .inputMensaje {
+        width: 90%;
+        height: 200px;
+    }
+
+    .botonMensaje {
+        width: 40%;
+        height: 40px;
+    }
+
+
+    /* tienda.html */
+
+    .galeria {
+        display: none;
+    }
+
+    .divMarcas {
+        display: none;
+    }
+
+    .sectionFinal {
+        margin-top: 60px;
+    }
+
+    .parrafoSneakers {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+
+    /* registrate.html */
+
+
+    .divNombre1 {
+        margin-right: 30px;
+    }
+
+    .inputCorreoElectronico {
+        width: 95%;
+    }
+
+
+    .divRegistrarse {
+        display: none;
+    }
+
+    .divBoton {
+        margin-top: 60px;
+    }
+
+
+
+}
+
+
+@media (max-width:419px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 80%;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width:375px) {
+
+    /*index.html */
+
+    .vinculosPrincipales {
+        width: 75%;
+
+    }
+
+    .liClass {
+        font-size: 20px;
+    }
+
+
+    .anclaTienda {
+        font-size: 35px;
+    }
+
+
+    .porQueSneakers {
+        font-size: 25px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+
+    /* sesion.html */
+
+    .inputUsername {
+        width: 70%;
+        height: 70px;
+        font-size: 15px;
+    }
+
+
+    .divCuenta {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .divBoton {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+
+    /* tienda.html */
+
+    .parrafoSneakers {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+
+    .conocenosAncla {
+        font-size: 20px;
+    }
+
+
+    /* registrate.html */
+
+    .divNombre1 {
+        width: 40%;
+    }
+
+    .divNombre2 {
+        width: 40%;
+    }
+
+    .divBoton {
+        margin-top: 60px;
+    }
+
+
+}
+
+
+@media (max-width:363px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 85%;
+    }
+
+
+}
+
+
+
+
+@media (max-width:320px) {
+
+    /*index.html */
+
+    .vinculosPrincipales {
+        width: 90%;
+
+    }
+
+    .liClass {
+        font-size: 20px;
+    }
+
+    .imagenJordan {
+        height: 300px;
+
+    }
+
+
+    .porQueSneakers {
+        font-size: 20px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+
+
+    /* sesion.html */
+
+    .h1Sesion {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .imgTienda2Clase {
+        width: 20px;
+        height: 20px;
+    }
+
+    .divBoton {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+    /* tienda.html */
+
+
+    .h1Tienda {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .parrafoSneakers {
+        font-size: 18px;
+    }
+
+    .conocenosAncla {
+        font-size: 20px;
+    }
+
+    .h6Final {
+        font-size: 55px;
+    }
+
+
+
+    /* registrate.html */
+
+    .divBoton {
+        margin-top: 60px;
+    }
+
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 100%;
+
+    }
+
+    .footerFinal{
+        width: 100%;
+    }
+
+    
+
+}

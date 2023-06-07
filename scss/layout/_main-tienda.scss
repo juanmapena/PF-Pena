@@ -1,0 +1,157 @@
+main{
+    .titulo{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+        .h1Tienda{
+            text-align: left;
+            font-family: $letra;
+            color: $color-2;
+            font-size: 60px;
+        }
+    }
+    .section1{
+        text-align: center;
+        color: $color-2;
+        background-image: url(../assets/img/nike-just-do-it.jpg);
+        .divSection1{
+            margin-top: 10px;
+            margin-bottom: 30px;
+            .h2Tienda{
+                font-size: 45px;
+                font-family: $letra;
+            }
+            .parrafoTienda{
+                font-family: $letra;
+                font-size: 25px;
+            }
+        }
+    }
+    .section2{
+        text-align: center;
+        color: $color-2;
+        div{
+            p{
+                font-family: $letra;
+                font-size: 25px;  
+            }
+            strong{
+                font-size: 30px;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+    .divProductos{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-left: 10px;
+        .h4Yh5{
+            font-size: 30px;
+            font-family: $letra;
+        }
+    }
+
+    .section3{
+        color: $color-2;
+        display: flex;
+        justify-content: center;
+        .contenedor{
+            width: 100%;
+            height: auto;
+            @include flex;
+            div{
+                display: block;
+                width: 200px;
+                height: 300px;
+                .imgZapas{
+                    width: 247px;
+                    height: 222px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .divMarcas{
+        margin-top: 70px;
+        margin-bottom: 80px;
+        padding-left: 10px;
+        .h4Yh5{
+            font-size: 30px;
+            font-family: $letra;        
+        }
+    }
+
+    
+    .sectionFinal{
+        text-align: center;
+        div{ 
+            margin-top: 90px;
+            .strong{
+                font-size: 30px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            .parrafoSneakers{
+                font-size: 20px;
+                font-family: $letra;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+        .divConocenos{
+            font-size: 25px;
+            font-family: $letra;
+            margin-top: 30px;
+            .conocenosAncla{
+                text-decoration: none;
+                background-color: black;
+                color: $color-1;
+            }
+        }
+    }
+}
+
+
+.galeria{
+    height: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "classJordan classImgAd classImgNike"
+    "classJordan classImgJanoski classImgSb"
+    ;
+    gap: 10px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+.classJordan{
+    grid-area: classJordan;
+}
+.classImgAd{
+    grid-area: classImgAd;
+}
+.classImgNike{
+    grid-area: classImgNike;
+}
+.classImgJanoski{
+    grid-area: classImgJanoski;
+}
+.classImgSb{
+    grid-area: classImgSb;
+}

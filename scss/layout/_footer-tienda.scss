@@ -1,0 +1,42 @@
+.footerFinal{
+    background-color: black;
+    color: $color-1;
+    margin-top: 100px;
+    .divFooterFinal{
+        margin-left: 25px;
+        padding-top: 30px;
+        .ulFooter{
+            list-style: none;
+            li{
+                .anclaPreguntas{
+                    text-decoration: none;
+                    color: $color-1;
+                }
+            }
+        }
+    }
+    .contenedorLis{
+        display: flex;
+        justify-content: center;
+        ul{
+            .liLogos{
+                list-style: none;
+                a{
+                    .logosLiImg{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .hFinal{
+        padding-right: 10px;
+        .h6Final{
+            text-align: right;
+            color: $color-1;
+            font-family: $letra;
+            font-size: 60px;
+        }
+    }
+}

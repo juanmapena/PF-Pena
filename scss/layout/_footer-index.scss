@@ -1,0 +1,21 @@
+footer{
+    .porQueSneakers{
+        text-align: center;
+        color: $color-1;
+        font-family: $letra;
+        font-size: 20px;
+        margin-top: 50px;
+        .ulProductos{
+            list-style: none;
+            text-align: center;
+        }
+    }
+    .logoFinal{
+        font-family: $letra;
+        text-align: right;
+        color: $color-1;
+        font-size: 50px;
+        margin-top: 60px;
+        padding-right: 10px;
+    }
+}

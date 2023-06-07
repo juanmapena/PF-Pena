@@ -1,0 +1,90 @@
+@media (max-width:375px) {
+
+/*index.html */
+
+nav{
+    .vinculosPrincipales{
+        width: 75%;
+        .ulNav{
+            .liHome{
+                .liClass{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.divTienda{
+    .anclaTienda{
+        font-size: 35px;
+    }
+}
+
+.porQueSneakers{
+    font-size: 25px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+/* sesion.html */
+
+form{
+    .divFormulario{
+        .inputUsername{
+            width: 70%;
+            height: 70px;
+            font-size: 15px;
+        }
+    }
+    .divBoton {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+}
+
+.divCuenta {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* tienda.html */
+
+div{
+    .parrafoSneakers{
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+}
+
+.divConocenos{
+    .conocenosAncla{
+        font-size: 20px;
+    }
+}
+
+.footerFinal{
+    width: 100%;
+}
+
+/* registrate.html */
+
+form{
+    .divNombre{
+        .divNombre1{
+            width: 40%;
+        }
+    }
+    .divNombre2{
+        width: 40%;
+    }
+}
+
+.divBoton {
+    margin-top: 60px;
+}
+
+
+}

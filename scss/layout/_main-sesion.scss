@@ -1,0 +1,64 @@
+main{
+    .divH2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-left: 10px;
+        .h2Sesion{
+            font-family: $letra;
+            font-size: 30px;
+        }
+    }
+    form{
+        .divUsername{
+            margin-bottom: 15px;
+            margin-top: 15px;
+            .h3Yh4{
+                text-align: center;
+                font-size: 20px;
+                font-family: $letra;
+            }
+        }
+        .divFormulario{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            .inputUsername{
+                width: 25%;
+                height: 50px;
+                text-align: center;
+            }
+        }
+        .divUsername{
+            margin-bottom: 15px;
+            margin-top: 15px;
+            .h3Yh4{
+                text-align: center;
+                font-size: 20px;
+                font-family: $letra;
+            }
+        }
+        .divFormulario{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            .inputUsername{
+                width: 25%;
+                height: 50px;
+                text-align: center;
+            }
+        }
+    }
+    .divCuenta{
+        color: $color-2;
+        text-align: center;
+        font-size: 25px;
+        font-family: $letra;
+        padding-top: 30px;
+        .anclaRegistrate{
+            text-decoration: none;
+            color: $color-2;
+        }
+    }
+}

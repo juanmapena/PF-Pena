@@ -1,0 +1,182 @@
+@media (max-width:425px) {
+
+/*index.html */
+
+.h1 {
+    font-size: 50px;
+}
+
+nav{
+    .vinculosPrincipales{
+        width: 65%;
+        .ulNav{
+            .liHome{
+                .liClass{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.divImage{
+    .imagenJordan{
+        height: 400px;
+    }
+}
+
+.divTienda{
+    .anclaTienda{
+        font-size: 35px;
+    }
+}
+
+.porQueSneakers{
+    font-size: 25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.logoFinal {
+    font-size: 50px;
+    padding-top: 80px;
+}
+
+/* sesion.html */
+
+ul{
+    .liAnclas{
+        a{
+            .imgTienda2Clase{
+                height: 25px;
+                width: 25px;
+            }
+        }
+    }
+}
+
+.divH2 {
+    margin-bottom: 55px;
+    margin-top: 55px;
+}
+
+form{
+    .divUsername{
+        .h3Yh4{
+            font-size: 25px;
+        }
+    }
+    .divFormulario{
+        .inputUsername{
+            width: 50%;
+            height: 50px;
+            margin-bottom: 30px;
+        }
+    }
+    .divBoton{
+        margin-top: 5px;
+        padding-top: 5px;
+        .botonSesion{
+            font-size: 16px;
+        }
+    }
+}
+
+.contenedorLis {
+    padding-top: 80px;
+}
+
+/* nosycontacto.html */
+
+.headerTienda{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+div{
+    .imgNos{
+        margin-bottom: 15px;
+        height: 400px;
+    }
+}
+
+section{
+    .h2ContactoDiv{
+        margin-bottom: 20px;
+    }
+    .divContacto{
+        .parrafoContacto{
+            font-size: 16px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    .divInput{
+        .inputCorreoElectronico1{
+            width: 90%;
+            height: 102px;
+        }
+        .inputMensaje{
+            width: 90%;
+            height: 200px;
+        }
+    }
+    .divBotonazo{
+        .botonMensaje{
+            width: 40%;
+            height: 40px;
+        }
+    }
+}
+
+/* tienda.html */
+
+.galeria {
+    display: none;
+}
+
+.divMarcas {
+    display: none;
+}
+
+
+.sectionFinal{
+    margin-top: 60px;
+    div{
+        .parrafoSneakers{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 0px;
+        }
+    }
+}
+
+.footerFinal{
+    width: 100%;
+}
+
+
+/* registrate.html */
+
+form{
+    .divNombre{
+        .divNombre1{
+            margin-right: 30px;
+        }
+    }
+    .divCorreoElectronico{
+        .inputCorreoElectronico{
+            width: 95%;
+        }
+    }
+}
+
+.divRegistrarse{
+    display: none;
+}
+
+.divBoton {
+    margin-top: 60px;
+}
+
+}

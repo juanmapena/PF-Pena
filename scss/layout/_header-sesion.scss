@@ -1,0 +1,30 @@
+header{
+    .h1Sesion{
+        text-align: center;
+        font-family: $letra;
+        font-size: 60px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    nav{
+        .divInicio{
+            display: flex;
+            justify-content: flex-end;
+            font-family: $letra; 
+            list-style: none;
+            ul{
+                .liAnclas{
+                    display: flex;
+                    gap: 15px;
+
+                    a{
+                        .imgTienda2Clase{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

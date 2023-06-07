@@ -1,0 +1,35 @@
+.headerTienda{
+    background-color: black;
+    width: 100%;
+    color: $color-1;
+    height: 30px;
+    .divHeader{
+        margin-bottom: 30px;
+        p{
+            text-align: center;
+            font-family: $letra;
+            font-size: 20px;
+        }
+    }
+    nav{
+        .divInicio{
+            display: flex;
+            justify-content: flex-end;
+            font-family: $letra; 
+            list-style: none;
+            ul{
+                .liAnclas{
+                    display: flex;
+                    gap: 15px;
+
+                    a{
+                        .imgTienda2Clase{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

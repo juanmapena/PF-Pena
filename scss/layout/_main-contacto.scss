@@ -1,0 +1,54 @@
+main{
+    .sectionFinal{
+        .divStrong{
+            .parrafoZapas{
+                font-family: $letra;
+                font-size: 20px;
+                margin-bottom: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+
+    div{
+        .imgNos{
+            width: 1340px;
+            height: 878px;
+        }
+    }
+}
+    section{
+        .h2ContactoDiv{
+            margin-left: 15px;
+            margin-top: 25px;
+            .h2Contacto{
+                text-align: left;
+                font-size: 30px;
+                font-family: $letra;
+            }
+        }
+        .divContacto{
+            .parrafoContacto{
+                text-align: center;
+                font-size: larger;
+                font-family: $letra;
+                padding-bottom: 30px;
+            }
+        }
+        .divInput{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: 15px;
+            .inputCorreoElectronico1{
+                width: 1234px;
+                height: 102px;
+            }
+        }
+        .divInput{
+            .inputMensaje{
+                width: 1266px;
+                height: 282px;
+            }
+        }
+    }
+}

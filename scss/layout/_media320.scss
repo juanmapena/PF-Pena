@@ -1,0 +1,108 @@
+@media (max-width:320px) {
+/*index.html */
+
+nav{
+    .vinculosPrincipales{
+        width: 90%;
+        .ulNav{
+            .liHome{
+                .liClass{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.divImage{
+    .imagenJordan{
+        height: 300px;
+    }
+}
+
+.porQueSneakers{
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+/* sesion.html */
+
+.h1Sesion {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.divInicio{
+    ul{
+        .liAnclas{
+            a{
+                .imgTienda2Clase{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
+
+form{
+    .divBoton{
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+}
+
+
+/* tienda.html */
+
+.titulo{
+    .h1Tienda{
+        font-size: 55px;
+        text-align: center;
+    }
+}
+
+.sectionFinal{
+    div{
+        .parrafoSneakers{
+            font-size: 18px;
+        }
+    }
+    .divConocenos{
+        .conocenosAncla{
+            font-size: 20px;
+        }
+    }
+}
+
+.hFinal{
+    .h6Final{
+        font-size: 55px;
+    }
+}
+
+
+/* registrate.html */
+
+.divBoton {
+    margin-top: 60px;
+}
+
+/* nosycontactohtml */
+
+div{
+    .imgNos{
+        width: 100%;
+
+    }
+}
+
+.footerFinal{
+    width: 100%;
+}
+
+}

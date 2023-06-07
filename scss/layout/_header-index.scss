@@ -1,0 +1,34 @@
+.bodyIndex{
+    background-color: black;
+    font-family: $letra;
+    header{
+        h1{
+            text-align: center;
+            color: $color-1;
+            font-size: 60px;
+            padding-top: 25px;
+            margin-bottom: 40px;
+        }
+        nav{
+            .vinculosPrincipales{
+                width: 20%;
+                border: 2px white solid;
+                    .ulNav{
+                        display: flex;
+                        list-style: none;
+                        gap: 15px;
+                        .liHome{
+                            text-decoration: none;
+                            .liClass{
+                                text-decoration: none;
+                                font-size: 18px;
+                                font-family: $letra;
+                                color: $color-1;
+                            }
+                        }
+                    }
+            }
+        }
+
+    }
+}

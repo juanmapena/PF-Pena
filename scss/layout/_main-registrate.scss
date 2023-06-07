@@ -1,0 +1,56 @@
+main{
+    .divClassH2{
+        margin-bottom: 15px;
+        margin-left: 15px;
+        .h2Registrate{
+            text-align: left;
+            font-size: 30px;
+            font-family: $letra;
+        }
+    }
+    .divParrafo{
+        color: 909090;
+        text-align: left;
+        font-family: $letra;
+        margin-bottom: 30px;
+        padding-left: 15px;
+    }
+    form{
+        .divNombre{
+            display: flex;
+            .divNombre1{
+                margin-right: 250px;
+                margin-bottom: 10px;
+                margin-left: 15px;
+                .inputNombre{
+                    width: 100%;
+                    height: 50px;
+                }
+            }
+            .divNombre2{
+                .inputNombre{
+                    width: 100%;
+                    height: 50px;
+                }
+            }
+        }
+
+        .divCorreoElectronico{
+            margin-top: 40px;
+            margin-left: 15px;
+            .inputCorreoElectronico{
+                width: 1234px;
+                height: 102px;
+            }
+        
+        }
+    }
+    .divRegistrarse{
+        text-align: center;
+        font-size: medium;
+        font-family: $letra;
+        .parrafoRegistrarse{
+            padding-top: 50px;
+        }
+    }
+}

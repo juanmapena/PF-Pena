@@ -1,0 +1,104 @@
+@media (max-width:1024px) {
+
+/*index.html */
+
+nav{
+    .vinculosPrincipales{
+        width: 25%;
+        font-size: 16px;
+    }
+}
+    
+
+/* tienda.html */
+
+.divInicio{
+    padding-right: 50px;
+}
+
+.titulo{
+    padding-left: 10px;
+}
+
+.divProductos{
+    padding-left: 10px;
+}
+
+.section3{
+    .contenedor{
+        gap: 80px;
+    }
+    div{
+        width: 300px;
+    }
+}
+
+.divMarcas{
+    padding-left: 10px;
+}
+
+div{
+    .parrafoSneakers{
+        padding-right: 40px; 
+    }
+}
+
+.divFooterFinal{
+    padding-left: 10px;
+}
+
+.hFinal{
+    padding-right: 50px;
+}
+
+/* sesion.html */
+
+.h1Sesion{
+    padding-top: 10px;
+}
+
+nav{
+    .divInicio{
+        padding-right: 5px;
+    }
+}
+
+.divH2{
+    margin-bottom: 15px;
+}
+
+form{
+    .divFormulario{
+        padding-bottom: 30px;
+        padding-top: 30px; 
+    }
+    .divBoton{
+        padding-top: 30px;
+    }
+}
+
+.divFooterFinal{
+    font-size: 20px;
+}
+
+/* registrate.html */
+
+form{
+    .divNombre2{
+        margin: 0px;
+    }
+    .divCorreoElectronico{
+        .inputCorreoElectronico{
+            width: 80%;
+        }
+    }
+}
+
+
+.divRegistrarse{
+    .parrafoRegistrarse{
+        padding-right: 200px;
+    }
+}
+
+}
