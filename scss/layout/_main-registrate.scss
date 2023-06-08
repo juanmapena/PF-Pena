@@ -1,7 +1,9 @@
-main{
+.miClase{
+    margin-left: 5%;
+    margin-right: 5%;
     .divClassH2{
         margin-bottom: 15px;
-        margin-left: 15px;
+        padding-left: 15px;
         .h2Registrate{
             text-align: left;
             font-size: 30px;
@@ -9,17 +11,17 @@ main{
         }
     }
     .divParrafo{
+        padding-left: 15px;
         color: 909090;
         text-align: left;
         font-family: $letra;
-        margin-bottom: 30px;
-        padding-left: 15px;
+         margin-bottom: 30px;
     }
     form{
         .divNombre{
             display: flex;
+            gap: 50px;
             .divNombre1{
-                margin-right: 250px;
                 margin-bottom: 10px;
                 margin-left: 15px;
                 .inputNombre{
@@ -39,7 +41,7 @@ main{
             margin-top: 40px;
             margin-left: 15px;
             .inputCorreoElectronico{
-                width: 1234px;
+                width: 100%;
                 height: 102px;
             }
         
@@ -51,6 +53,6 @@ main{
         font-family: $letra;
         .parrafoRegistrarse{
             padding-top: 50px;
+            }
         }
-    }
 }

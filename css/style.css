@@ -321,47 +321,46 @@ main .divCuenta {
     text-decoration: none;
     color: black; }
 
-main .divClassH2 {
-  margin-bottom: 15px;
-  margin-left: 15px; }
-  main .divClassH2 .h2Registrate {
+.miClase {
+  margin-left: 5%;
+  margin-right: 5%; }
+  .miClase .divClassH2 {
+    margin-bottom: 15px;
+    padding-left: 15px; }
+    .miClase .divClassH2 .h2Registrate {
+      text-align: left;
+      font-size: 30px;
+      font-family: "Goudy Bookletter 1911", serif; }
+  .miClase .divParrafo {
+    padding-left: 15px;
+    color: 909090;
     text-align: left;
-    font-size: 30px;
-    font-family: "Goudy Bookletter 1911", serif; }
-
-main .divParrafo {
-  color: 909090;
-  text-align: left;
-  font-family: "Goudy Bookletter 1911", serif;
-  margin-bottom: 30px;
-  padding-left: 15px; }
-
-main form .divNombre {
-  display: flex; }
-  main form .divNombre .divNombre1 {
-    margin-right: 250px;
-    margin-bottom: 10px;
-    margin-left: 15px; }
-    main form .divNombre .divNombre1 .inputNombre {
+    font-family: "Goudy Bookletter 1911", serif;
+    margin-bottom: 30px; }
+  .miClase form .divNombre {
+    display: flex;
+    gap: 50px; }
+    .miClase form .divNombre .divNombre1 {
+      margin-bottom: 10px;
+      margin-left: 15px; }
+      .miClase form .divNombre .divNombre1 .inputNombre {
+        width: 100%;
+        height: 50px; }
+    .miClase form .divNombre .divNombre2 .inputNombre {
       width: 100%;
       height: 50px; }
-  main form .divNombre .divNombre2 .inputNombre {
-    width: 100%;
-    height: 50px; }
-
-main form .divCorreoElectronico {
-  margin-top: 40px;
-  margin-left: 15px; }
-  main form .divCorreoElectronico .inputCorreoElectronico {
-    width: 1234px;
-    height: 102px; }
-
-main .divRegistrarse {
-  text-align: center;
-  font-size: medium;
-  font-family: "Goudy Bookletter 1911", serif; }
-  main .divRegistrarse .parrafoRegistrarse {
-    padding-top: 50px; }
+  .miClase form .divCorreoElectronico {
+    margin-top: 40px;
+    margin-left: 15px; }
+    .miClase form .divCorreoElectronico .inputCorreoElectronico {
+      width: 100%;
+      height: 102px; }
+  .miClase .divRegistrarse {
+    text-align: center;
+    font-size: medium;
+    font-family: "Goudy Bookletter 1911", serif; }
+    .miClase .divRegistrarse .parrafoRegistrarse {
+      padding-top: 50px; }
 
 main .sectionFinal .divStrong .parrafoZapas {
   font-family: "Goudy Bookletter 1911", serif;
@@ -491,8 +490,6 @@ main section .divInput .inputMensaje {
     margin: 0px; }
   form .divCorreoElectronico .inputCorreoElectronico {
     width: 80%; }
-  .divRegistrarse .parrafoRegistrarse {
-    padding-right: 200px; }
   /* nosycontactohtml */
   div .imgNos {
     width: 100%; } }
@@ -544,10 +541,14 @@ main section .divInput .inputMensaje {
     width: 90%; }
   /* registrate.html */
   form .divCorreoElectronico .inputCorreoElectronico {
-    width: 90%; }
+    width: 10%; }
   .divRegistrarse {
-    padding-left: 170px;
     margin-bottom: 30px; } }
+
+@media (max-width: 740px) {
+  /* tienda.html */
+  .headerTienda {
+    width: 100%; } }
 
 @media (max-width: 736px) {
   /* nosycontactohtml */
@@ -555,11 +556,6 @@ main section .divInput .inputMensaje {
     width: 104%; }
   .footerFinal {
     width: 104%; } }
-
-@media (max-width: 740px) {
-  /* tienda.html */
-  .headerTienda {
-    width: 100%; } }
 
 @media (max-width: 723px) {
   /* index.html */
@@ -574,11 +570,6 @@ main section .divInput .inputMensaje {
   .footerFinal {
     width: 100%; } }
 
-@media (max-width: 580px) {
-  /* tienda.html */
-  .titulo .h1Tienda {
-    margin-top: 70px; } }
-
 @media (max-width: 650px) {
   /* nosycontactohtml */
   div .imgNos {
@@ -591,20 +582,10 @@ main section .divInput .inputMensaje {
   .footerFinal {
     width: 100%; } }
 
-@media (max-width: 621px) {
-  /* index.html */
-  nav .vinculosPrincipales {
-    width: 50%; }
-  /* nosycontacto.html */
-  div .imgNos {
-    width: 123%; }
-  .divStrong {
-    padding-left: 100px; }
-  .footerFinal {
-    width: 123%; }
+@media (max-width: 580px) {
   /* tienda.html */
-  .footerFinal {
-    width: 100%; } }
+  .titulo .h1Tienda {
+    margin-top: 70px; } }
 
 @media (max-width: 550px) {
   /* nosycontactohtml */
@@ -731,10 +712,10 @@ main section .divInput .inputMensaje {
   .footerFinal {
     width: 100%; }
   /* registrate.html */
-  form .divNombre .divNombre1 {
-    margin-right: 30px; }
+  form .divNombre {
+    gap: 10px; }
   form .divCorreoElectronico .inputCorreoElectronico {
-    width: 95%; }
+    width: 100%; }
   .divRegistrarse {
     display: none; }
   .divBoton {

@@ -160,13 +160,11 @@ section{
 
 form{
     .divNombre{
-        .divNombre1{
-            margin-right: 30px;
-        }
+        gap: 10px;
     }
     .divCorreoElectronico{
         .inputCorreoElectronico{
-            width: 95%;
+            width: 100%;
         }
     }
 }
