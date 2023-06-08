@@ -1,13 +1,22 @@
 @media (max-width:1024px) {
-
 /*index.html */
 
-nav{
-    .vinculosPrincipales{
-        width: 25%;
-        font-size: 16px;
-    }
-}
+// header{
+//     nav{
+//         .vinculosPrincipales{
+//             width: 100%;
+//             ul{
+//                 li{
+//                     width: 100%;
+//                     a{
+//                         width: 100%;
+//                         word-spacing: 200px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
     
 
 /* tienda.html */
@@ -100,5 +109,18 @@ form{
         padding-right: 200px;
     }
 }
+
+
+/* nosycontactohtml */
+
+div{
+    .imgNos{
+        width: 100%;
+    }
+}
+
+
+
+
 
 }

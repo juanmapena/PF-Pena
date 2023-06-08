@@ -50,6 +50,11 @@ nav{
 }
 
 form{
+    .divFormulario{
+        .inputUsername{
+            width: 100%;
+        }
+    }
     .divBoton{
         margin-top: 5px;
         padding-top: 5px;
@@ -94,10 +99,11 @@ form{
 
 /* nosycontactohtml */
 
-div{
-    .imgNos{
-        width: 100%;
-
+.sectionFinal{
+    div{
+        img{
+            width: 20%;
+        }
     }
 }
 

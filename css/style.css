@@ -28,20 +28,16 @@
     font-size: 60px;
     padding-top: 25px;
     margin-bottom: 40px; }
-  .bodyIndex header nav .vinculosPrincipales {
-    width: 20%;
-    border: 2px white solid; }
-    .bodyIndex header nav .vinculosPrincipales .ulNav {
-      display: flex;
-      list-style: none;
-      gap: 15px; }
-      .bodyIndex header nav .vinculosPrincipales .ulNav .liHome {
-        text-decoration: none; }
-        .bodyIndex header nav .vinculosPrincipales .ulNav .liHome .liClass {
-          text-decoration: none;
-          font-size: 18px;
-          font-family: "Goudy Bookletter 1911", serif;
-          color: white; }
+  .bodyIndex header nav .vinculosPrincipales ul {
+    display: flex;
+    list-style: none;
+    gap: 15px; }
+    .bodyIndex header nav .vinculosPrincipales ul li, .bodyIndex header nav .vinculosPrincipales ul li a {
+      text-decoration: none; }
+      .bodyIndex header nav .vinculosPrincipales ul li a {
+        font-size: 18px;
+        font-family: "Goudy Bookletter 1911", serif;
+        color: white; }
 
 main div .imagenJordan {
   width: 100%; }
@@ -155,8 +151,8 @@ main .section3 {
       display: block;
       width: 200px;
       height: 300px; }
-      main .section3 .contenedor div .imgZapas {
-        width: 247px;
+      main .section3 .contenedor div img {
+        width: 200px;
         height: 222px;
         object-fit: cover; }
 
@@ -226,13 +222,14 @@ main .sectionFinal {
 .footerFinal {
   background-color: black;
   color: white;
-  margin-top: 100px; }
+  margin-top: 100px;
+  width: 100%; }
   .footerFinal .divFooterFinal {
     margin-left: 25px;
     padding-top: 30px; }
     .footerFinal .divFooterFinal .ulFooter {
       list-style: none; }
-      .footerFinal .divFooterFinal .ulFooter li .anclaPreguntas {
+      .footerFinal .divFooterFinal .ulFooter li .anclaPreguntas, .bodyIndex header nav .vinculosPrincipales ul li .footerFinal .divFooterFinal .ulFooter a .anclaPreguntas {
         text-decoration: none;
         color: white; }
   .footerFinal .contenedorLis {
@@ -373,7 +370,7 @@ main .sectionFinal .divStrong .parrafoZapas {
   padding-left: 15px;
   padding-right: 15px; }
 
-main .sectionFinal div .imgNos {
+main .sectionFinal div img {
   width: 1340px;
   height: 878px; }
 
@@ -434,30 +431,28 @@ main section .divInput .inputMensaje {
   .divFooterFinal {
     font-size: 20px; }
   /* nosycontacto.html */
-  .div .imgNos {
+  .div img {
     width: 100%; }
   .divInput .inputCorreoElectronico1 {
     width: 80%;
     height: 102px; }
   .divInput .inputMensaje {
     width: 80%;
-    height: 282px; } }
+    height: 282px; }
+  /* registrate.html */
+  .footerFinal {
+    width: 100%; } }
 
 @media (max-width: 1250px) {
-  /* index.html */
-  nav .vinculosPrincipales {
-    width: 24%; } }
+  /* nosycontactohtml */
+  div img {
+    width: 100%; } }
 
 @media (max-width: 1030px) {
-  /* index.html */
-  nav .vinculosPrincipales {
-    width: 30%; } }
+  /* index.html */ }
 
 @media (max-width: 1024px) {
   /*index.html */
-  nav .vinculosPrincipales {
-    width: 25%;
-    font-size: 16px; }
   /* tienda.html */
   .divInicio {
     padding-right: 50px; }
@@ -497,17 +492,18 @@ main section .divInput .inputMensaje {
   form .divCorreoElectronico .inputCorreoElectronico {
     width: 80%; }
   .divRegistrarse .parrafoRegistrarse {
-    padding-right: 200px; } }
+    padding-right: 200px; }
+  /* nosycontactohtml */
+  div .imgNos {
+    width: 100%; } }
 
 @media (max-width: 995px) {
-  /* index.html */
-  nav .vinculosPrincipales {
-    width: 30%; } }
+  /* index.html */ }
 
 @media (max-width: 835px) {
-  /* index.html */
-  nav .vinculosPrincipales {
-    width: 35%; } }
+  /* tienda.html */
+  .section3 .contenedor div img {
+    width: 100px; } }
 
 @media (max-width: 768px) {
   /*index.html */
@@ -560,22 +556,40 @@ main section .divInput .inputMensaje {
   .footerFinal {
     width: 104%; } }
 
-@media (max-width: 720px) {
+@media (max-width: 740px) {
+  /* tienda.html */
+  .headerTienda {
+    width: 100%; } }
+
+@media (max-width: 723px) {
   /* index.html */
   nav .vinculosPrincipales {
     width: 40%; }
   /* nosycontacto.html */
   div .imgNos {
     width: 106%; }
+  /* tienda.html */
+  .headerTienda {
+    width: 100%; }
   .footerFinal {
-    width: 106%; } }
+    width: 100%; } }
+
+@media (max-width: 580px) {
+  /* tienda.html */
+  .titulo .h1Tienda {
+    margin-top: 70px; } }
 
 @media (max-width: 650px) {
   /* nosycontactohtml */
   div .imgNos {
     width: 117%; }
   .footerFinal {
-    width: 117%; } }
+    width: 117%; }
+  /* tienda.html */
+  .headerTienda {
+    width: 100%; }
+  .footerFinal {
+    width: 100%; } }
 
 @media (max-width: 621px) {
   /* index.html */
@@ -587,7 +601,10 @@ main section .divInput .inputMensaje {
   .divStrong {
     padding-left: 100px; }
   .footerFinal {
-    width: 123%; } }
+    width: 123%; }
+  /* tienda.html */
+  .footerFinal {
+    width: 100%; } }
 
 @media (max-width: 550px) {
   /* nosycontactohtml */
@@ -600,7 +617,10 @@ main section .divInput .inputMensaje {
   section .divInput .inputMensaje {
     width: 130%; }
   section .divBotonazo {
-    padding-left: 200px; } }
+    padding-left: 200px; }
+  /* tienda.html */
+  .footerFinal {
+    width: 100%; } }
 
 @media (max-width: 500px) {
   /* index.html */
@@ -618,7 +638,10 @@ main section .divInput .inputMensaje {
   section .divBotonazo {
     padding-left: 200px; }
   .footerFinal {
-    width: 153%; } }
+    width: 153%; }
+  /* tienda.html */
+  .footerFinal {
+    width: 100%; } }
 
 @media (max-width: 451px) {
   /* index.html */
@@ -628,7 +651,10 @@ main section .divInput .inputMensaje {
   div .imgNos {
     width: 170%; }
   .footerFinal {
-    width: 170%; } }
+    width: 170%; }
+  /* tienda.html */
+  .footerFinal {
+    width: 100%; } }
 
 @media (max-width: 425px) {
   /*index.html */
@@ -786,6 +812,8 @@ main section .divInput .inputMensaje {
   .divInicio ul .liAnclas a .imgTienda2Clase {
     width: 20px;
     height: 20px; }
+  form .divFormulario .inputUsername {
+    width: 100%; }
   form .divBoton {
     margin-top: 5px;
     padding-top: 5px; }
@@ -803,7 +831,7 @@ main section .divInput .inputMensaje {
   .divBoton {
     margin-top: 60px; }
   /* nosycontactohtml */
-  div .imgNos {
-    width: 100%; }
+  .sectionFinal div img {
+    width: 20%; }
   .footerFinal {
     width: 100%; } }

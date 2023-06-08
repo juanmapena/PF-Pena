@@ -11,16 +11,14 @@
         }
         nav{
             .vinculosPrincipales{
-                width: 20%;
-                border: 2px white solid;
-                    .ulNav{
+                    ul{
                         display: flex;
                         list-style: none;
                         gap: 15px;
-                        .liHome{
+                        li{
                             text-decoration: none;
-                            .liClass{
-                                text-decoration: none;
+                            a{
+                                @extend li ;
                                 font-size: 18px;
                                 font-family: $letra;
                                 color: $color-1;
