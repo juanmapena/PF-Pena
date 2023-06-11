@@ -370,8 +370,7 @@ main .sectionFinal .divStrong .parrafoZapas {
   padding-right: 15px; }
 
 main .sectionFinal div img {
-  width: 1340px;
-  height: 878px; }
+  width: 90%; }
 
 main section .h2ContactoDiv {
   margin-left: 15px;
@@ -392,11 +391,11 @@ main section .divInput {
   margin-bottom: 40px;
   margin-left: 15px; }
   main section .divInput .inputCorreoElectronico1 {
-    width: 1234px;
+    width: 80%;
     height: 102px; }
 
 main section .divInput .inputMensaje {
-  width: 1266px;
+  width: 80%;
   height: 282px; }
 
 @media (max-width: 1440px) {
@@ -447,11 +446,7 @@ main section .divInput .inputMensaje {
   div img {
     width: 100%; } }
 
-@media (max-width: 1030px) {
-  /* index.html */ }
-
 @media (max-width: 1024px) {
-  /*index.html */
   /* tienda.html */
   .divInicio {
     padding-right: 50px; }
@@ -493,9 +488,6 @@ main section .divInput .inputMensaje {
   /* nosycontactohtml */
   div .imgNos {
     width: 100%; } }
-
-@media (max-width: 995px) {
-  /* index.html */ }
 
 @media (max-width: 835px) {
   /* tienda.html */
@@ -550,20 +542,10 @@ main section .divInput .inputMensaje {
   .headerTienda {
     width: 100%; } }
 
-@media (max-width: 736px) {
-  /* nosycontactohtml */
-  div .imgNos {
-    width: 104%; }
-  .footerFinal {
-    width: 104%; } }
-
 @media (max-width: 723px) {
   /* index.html */
   nav .vinculosPrincipales {
     width: 40%; }
-  /* nosycontacto.html */
-  div .imgNos {
-    width: 106%; }
   /* tienda.html */
   .headerTienda {
     width: 100%; }
@@ -571,14 +553,17 @@ main section .divInput .inputMensaje {
     width: 100%; } }
 
 @media (max-width: 650px) {
-  /* nosycontactohtml */
-  div .imgNos {
-    width: 117%; }
-  .footerFinal {
-    width: 117%; }
   /* tienda.html */
   .headerTienda {
     width: 100%; }
+  .footerFinal {
+    width: 100%; } }
+
+@media (max-width: 621px) {
+  /* index.html */
+  nav .vinculosPrincipales {
+    width: 50%; }
+  /* tienda.html */
   .footerFinal {
     width: 100%; } }
 
@@ -589,16 +574,10 @@ main section .divInput .inputMensaje {
 
 @media (max-width: 550px) {
   /* nosycontactohtml */
-  div .imgNos {
-    width: 139%; }
-  .footerFinal {
-    width: 139%; }
   section .divInput .inputCorreoElectronico1 {
     width: 130%; }
   section .divInput .inputMensaje {
     width: 130%; }
-  section .divBotonazo {
-    padding-left: 200px; }
   /* tienda.html */
   .footerFinal {
     width: 100%; } }
@@ -608,18 +587,10 @@ main section .divInput .inputMensaje {
   nav .vinculosPrincipales {
     width: 55%; }
   /* nosycontactohtml */
-  .sectionFinal .divStrong {
-    padding-left: 150px; }
   .sectionFinal div .imgNos {
     width: 153%; }
-  section .divInput .inputCorreoElectronico1 {
-    width: 130%; }
-  section .divInput .inputMensaje {
-    width: 130%; }
-  section .divBotonazo {
-    padding-left: 200px; }
-  .footerFinal {
-    width: 153%; }
+  .h2Contacto {
+    text-align: center !important; }
   /* tienda.html */
   .footerFinal {
     width: 100%; } }
@@ -628,11 +599,6 @@ main section .divInput .inputMensaje {
   /* index.html */
   nav .vinculosPrincipales {
     width: 60%; }
-  /* nosycontactohtml */
-  div .imgNos {
-    width: 170%; }
-  .footerFinal {
-    width: 170%; }
   /* tienda.html */
   .footerFinal {
     width: 100%; } }
@@ -712,12 +678,12 @@ main section .divInput .inputMensaje {
   .footerFinal {
     width: 100%; }
   /* registrate.html */
+  .miClase div {
+    margin-top: 20px; }
   form .divNombre {
     gap: 10px; }
   form .divCorreoElectronico .inputCorreoElectronico {
     width: 100%; }
-  .divRegistrarse {
-    display: none; }
   .divBoton {
     margin-top: 60px; } }
 

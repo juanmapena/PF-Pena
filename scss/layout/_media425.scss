@@ -158,6 +158,14 @@ section{
 
 /* registrate.html */
 
+.miClase{
+    div{
+        margin-top: 20px;
+    }
+}
+
+
+
 form{
     .divNombre{
         gap: 10px;
@@ -169,9 +177,6 @@ form{
     }
 }
 
-.divRegistrarse{
-    display: none;
-}
 
 .divBoton {
     margin-top: 60px;
