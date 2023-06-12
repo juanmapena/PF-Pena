@@ -1,86 +1,64 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* nosycontacto.html */
 .divBotonazo {
   text-align: center;
   margin-bottom: 60px;
-  margin-top: 60px;
-}
-
-.divBotonazo .botonMensaje {
-  width: 275px;
-  height: 70px;
-}
+  margin-top: 60px; }
+  .divBotonazo .botonMensaje {
+    width: 275px;
+    height: 70px; }
 
 /* sesion.html */
 .divBoton {
   text-align: center;
   margin-top: 45px;
-  padding-top: 5px;
-}
+  padding-top: 5px; }
 
 .bodyIndex {
   background-color: black;
-  font-family: "Goudy Bookletter 1911", serif;
-}
-
-.bodyIndex header h1 {
-  text-align: center;
-  color: white;
-  font-size: 60px;
-  padding-top: 25px;
-  margin-bottom: 40px;
-}
-
-.bodyIndex header nav .vinculosPrincipales ul {
-  display: flex;
-  list-style: none;
-  gap: 15px;
-}
-
-.bodyIndex header nav .vinculosPrincipales ul li,
-.bodyIndex header nav .vinculosPrincipales ul li a {
-  text-decoration: none;
-}
-
-.bodyIndex header nav .vinculosPrincipales ul li a {
-  font-size: 18px;
-  font-family: "Goudy Bookletter 1911", serif;
-  color: white;
-}
+  font-family: "Goudy Bookletter 1911", serif; }
+  .bodyIndex header h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 25px;
+    margin-bottom: 40px; }
+  .bodyIndex header nav .vinculosPrincipales ul {
+    display: flex;
+    list-style: none;
+    gap: 15px; }
+    .bodyIndex header nav .vinculosPrincipales ul li, .bodyIndex header nav .vinculosPrincipales ul li a {
+      text-decoration: none; }
+      .bodyIndex header nav .vinculosPrincipales ul li a {
+        font-size: 18px;
+        font-family: "Goudy Bookletter 1911", serif;
+        color: white; }
 
 main div .imagenJordan {
-  width: 100%;
-}
+  width: 100%; }
 
 main .divTienda {
   background-color: #D9D9D9;
-  text-align: center;
-}
-
-main .divTienda .anclaTienda {
-  text-decoration: none;
-  color: black;
-  font-size: 40px;
-  font-family: "Goudy Bookletter 1911", serif;
-}
+  text-align: center; }
+  main .divTienda .anclaTienda {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: "Goudy Bookletter 1911", serif; }
 
 footer .porQueSneakers {
   text-align: center;
   color: white;
   font-family: "Goudy Bookletter 1911", serif;
   font-size: 20px;
-  margin-top: 50px;
-}
-
-footer .porQueSneakers .ulProductos {
-  list-style: none;
-  text-align: center;
-}
+  margin-top: 50px; }
+  footer .porQueSneakers .ulProductos {
+    list-style: none;
+    text-align: center; }
 
 footer .logoFinal {
   font-family: "Goudy Bookletter 1911", serif;
@@ -88,179 +66,126 @@ footer .logoFinal {
   color: white;
   font-size: 50px;
   margin-top: 60px;
-  padding-right: 10px;
-}
+  padding-right: 10px; }
 
 .headerTienda {
   background-color: black;
   width: 100%;
   color: white;
-  height: 30px;
-}
-
-.headerTienda .divHeader {
-  margin-bottom: 30px;
-}
-
-.headerTienda .divHeader p {
-  text-align: center;
-  font-family: "Goudy Bookletter 1911", serif;
-  font-size: 20px;
-}
-
-.headerTienda nav .divInicio {
-  display: flex;
-  justify-content: flex-end;
-  font-family: "Goudy Bookletter 1911", serif;
-  list-style: none;
-}
-
-.headerTienda nav .divInicio ul .liAnclas {
-  display: flex;
-  gap: 15px;
-}
-
-.headerTienda nav .divInicio ul .liAnclas a .imgTienda2Clase {
-  width: 30px;
-  height: 30px;
-}
+  height: 30px; }
+  .headerTienda .divHeader {
+    margin-bottom: 30px; }
+    .headerTienda .divHeader p {
+      text-align: center;
+      font-family: "Goudy Bookletter 1911", serif;
+      font-size: 20px; }
+  .headerTienda nav .divInicio {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Goudy Bookletter 1911", serif;
+    list-style: none; }
+    .headerTienda nav .divInicio ul .liAnclas {
+      display: flex;
+      gap: 15px; }
+      .headerTienda nav .divInicio ul .liAnclas a .imgTienda2Clase {
+        width: 30px;
+        height: 30px; }
 
 main .titulo {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding-left: 10px;
-}
-
-main .titulo .h1Tienda {
-  text-align: left;
-  font-family: "Goudy Bookletter 1911", serif;
-  color: black;
-  font-size: 60px;
-}
+  padding-left: 10px; }
+  main .titulo .h1Tienda {
+    text-align: left;
+    font-family: "Goudy Bookletter 1911", serif;
+    color: black;
+    font-size: 60px; }
 
 main .section1 {
   text-align: center;
   color: black;
-  background-image: url(../assets/img/nike-just-do-it.jpg);
-}
-
-main .section1 .divSection1 {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
-main .section1 .divSection1 .h2Tienda {
-  font-size: 45px;
-  font-family: "Goudy Bookletter 1911", serif;
-}
-
-main .section1 .divSection1 .parrafoTienda {
-  font-family: "Goudy Bookletter 1911", serif;
-  font-size: 25px;
-}
+  background-image: url(../assets/img/nike-just-do-it.jpg); }
+  main .section1 .divSection1 {
+    margin-top: 10px;
+    margin-bottom: 30px; }
+    main .section1 .divSection1 .h2Tienda {
+      font-size: 45px;
+      font-family: "Goudy Bookletter 1911", serif; }
+    main .section1 .divSection1 .parrafoTienda {
+      font-family: "Goudy Bookletter 1911", serif;
+      font-size: 25px; }
 
 main .section2 {
   text-align: center;
-  color: black;
-}
-
-main .section2 div p {
-  font-family: "Goudy Bookletter 1911", serif;
-  font-size: 25px;
-}
-
-main .section2 div strong {
-  font-size: 30px;
-}
-
-main .section2 img {
-  width: 100%;
-}
+  color: black; }
+  main .section2 div p {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-size: 25px; }
+  main .section2 div strong {
+    font-size: 30px; }
+  main .section2 img {
+    width: 100%; }
 
 main .divProductos {
   margin-top: 40px;
   margin-bottom: 40px;
-  padding-left: 10px;
-}
-
-main .divProductos .h4Yh5 {
-  font-size: 30px;
-  font-family: "Goudy Bookletter 1911", serif;
-}
+  padding-left: 10px; }
+  main .divProductos .h4Yh5 {
+    font-size: 30px;
+    font-family: "Goudy Bookletter 1911", serif; }
 
 main .section3 {
   color: black;
   display: flex;
-  justify-content: center;
-}
-
-main .section3 .contenedor {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 90px;
-}
-
-main .section3 .contenedor div {
-  display: block;
-  width: 200px;
-  height: 300px;
-}
-
-main .section3 .contenedor div img {
-  width: 200px;
-  height: 222px;
-  object-fit: cover;
-}
+  justify-content: center; }
+  main .section3 .contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px; }
+    main .section3 .contenedor div {
+      display: block;
+      width: 200px;
+      height: 300px; }
+      main .section3 .contenedor div img {
+        width: 200px;
+        height: 222px;
+        object-fit: cover; }
 
 main .divMarcas {
   margin-top: 70px;
   margin-bottom: 80px;
-  padding-left: 10px;
-}
-
-main .divMarcas .h4Yh5 {
-  font-size: 30px;
-  font-family: "Goudy Bookletter 1911", serif;
-}
+  padding-left: 10px; }
+  main .divMarcas .h4Yh5 {
+    font-size: 30px;
+    font-family: "Goudy Bookletter 1911", serif; }
 
 main .sectionFinal {
-  text-align: center;
-}
-
-main .sectionFinal div {
-  margin-top: 90px;
-}
-
-main .sectionFinal div .strong {
-  font-size: 30px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-main .sectionFinal div .parrafoSneakers {
-  font-size: 20px;
-  font-family: "Goudy Bookletter 1911", serif;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-main .sectionFinal .divConocenos {
-  font-size: 25px;
-  font-family: "Goudy Bookletter 1911", serif;
-  margin-top: 30px;
-}
-
-main .sectionFinal .divConocenos .conocenosAncla {
-  text-decoration: none;
-  background-color: black;
-  color: white;
-}
+  text-align: center; }
+  main .sectionFinal div {
+    margin-top: 90px; }
+    main .sectionFinal div .strong {
+      font-size: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+    main .sectionFinal div .parrafoSneakers {
+      font-size: 20px;
+      font-family: "Goudy Bookletter 1911", serif;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px; }
+  main .sectionFinal .divConocenos {
+    font-size: 25px;
+    font-family: "Goudy Bookletter 1911", serif;
+    margin-top: 30px; }
+    main .sectionFinal .divConocenos .conocenosAncla {
+      text-decoration: none;
+      background-color: black;
+      color: white; }
 
 .galeria {
   height: 800px;
@@ -268,945 +193,594 @@ main .sectionFinal .divConocenos .conocenosAncla {
   display: grid;
   grid-template-columns: 1fr 25% 25%;
   grid-template-rows: 50% 50%;
-  grid-template-areas: "classJordan classImgAd classImgNike"
-    "classJordan classImgJanoski classImgSb";
+  grid-template-areas: "classJordan classImgAd classImgNike" "classJordan classImgJanoski classImgSb";
   gap: 10px;
   justify-content: center;
   padding-left: 10px;
-  padding-right: 10px;
-}
-
-.galeria img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
+  padding-right: 10px; }
+  .galeria img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
 
 .classJordan {
-  grid-area: classJordan;
-}
+  grid-area: classJordan; }
 
 .classImgAd {
-  grid-area: classImgAd;
-}
+  grid-area: classImgAd; }
 
 .classImgNike {
-  grid-area: classImgNike;
-}
+  grid-area: classImgNike; }
 
 .classImgJanoski {
-  grid-area: classImgJanoski;
-}
+  grid-area: classImgJanoski; }
 
 .classImgSb {
-  grid-area: classImgSb;
-}
+  grid-area: classImgSb; }
 
 .footerFinal {
   background-color: black;
   color: white;
   margin-top: 100px;
-  width: 100%;
-}
-
-.footerFinal .divFooterFinal {
-  margin-left: 25px;
-  padding-top: 30px;
-}
-
-.footerFinal .divFooterFinal .ulFooter {
-  list-style: none;
-}
-
-.footerFinal .divFooterFinal .ulFooter li .anclaPreguntas,
-.bodyIndex header nav .vinculosPrincipales ul li .footerFinal .divFooterFinal .ulFooter a .anclaPreguntas {
-  text-decoration: none;
-  color: white;
-}
-
-.footerFinal .contenedorLis {
-  display: flex;
-  justify-content: center;
-}
-
-.footerFinal .contenedorLis ul .liLogos {
-  list-style: none;
-}
-
-.footerFinal .contenedorLis ul .liLogos a .logosLiImg {
-  width: 40px;
-  height: 40px;
-}
-
-.footerFinal .hFinal {
-  padding-right: 10px;
-}
-
-.footerFinal .hFinal .h6Final {
-  text-align: right;
-  color: white;
-  font-family: "Goudy Bookletter 1911", serif;
-  font-size: 60px;
-}
+  width: 100%; }
+  .footerFinal .divFooterFinal {
+    margin-left: 25px;
+    padding-top: 30px; }
+    .footerFinal .divFooterFinal .ulFooter {
+      list-style: none; }
+      .footerFinal .divFooterFinal .ulFooter li .anclaPreguntas, .bodyIndex header nav .vinculosPrincipales ul li .footerFinal .divFooterFinal .ulFooter a .anclaPreguntas {
+        text-decoration: none;
+        color: white; }
+  .footerFinal .contenedorLis {
+    display: flex;
+    justify-content: center; }
+    .footerFinal .contenedorLis ul .liLogos {
+      list-style: none; }
+      .footerFinal .contenedorLis ul .liLogos a .logosLiImg {
+        width: 40px;
+        height: 40px; }
+  .footerFinal .hFinal {
+    padding-right: 10px; }
+    .footerFinal .hFinal .h6Final {
+      text-align: right;
+      color: white;
+      font-family: "Goudy Bookletter 1911", serif;
+      font-size: 60px; }
 
 header .h1Sesion {
   text-align: center;
   font-family: "Goudy Bookletter 1911", serif;
   font-size: 60px;
   margin-top: 30px;
-  margin-bottom: 60px;
-}
+  margin-bottom: 60px; }
 
 header nav .divInicio {
   display: flex;
   justify-content: flex-end;
   font-family: "Goudy Bookletter 1911", serif;
-  list-style: none;
-}
-
-header nav .divInicio ul .liAnclas {
-  display: flex;
-  gap: 15px;
-}
-
-header nav .divInicio ul .liAnclas a .imgTienda2Clase {
-  width: 30px;
-  height: 30px;
-}
+  list-style: none; }
+  header nav .divInicio ul .liAnclas {
+    display: flex;
+    gap: 15px; }
+    header nav .divInicio ul .liAnclas a .imgTienda2Clase {
+      width: 30px;
+      height: 30px; }
 
 main .divH2 {
   margin-top: 40px;
   margin-bottom: 40px;
-  padding-left: 10px;
-}
-
-main .divH2 .h2Sesion {
-  font-family: "Goudy Bookletter 1911", serif;
-  font-size: 30px;
-}
+  padding-left: 10px; }
+  main .divH2 .h2Sesion {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-size: 30px; }
 
 main form .divUsername {
   margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-main form .divUsername .h3Yh4 {
-  text-align: center;
-  font-size: 20px;
-  font-family: "Goudy Bookletter 1911", serif;
-}
+  margin-top: 15px; }
+  main form .divUsername .h3Yh4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Goudy Bookletter 1911", serif; }
 
 main form .divFormulario {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-main form .divFormulario .inputUsername {
-  min-width: 50%;
-  height: 50px;
-  text-align: center;
-}
+  margin-bottom: 30px; }
+  main form .divFormulario .inputUsername {
+    min-width: 50%;
+    height: 50px;
+    text-align: center; }
 
 main form .divUsername {
   margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-main form .divUsername .h3Yh4 {
-  text-align: center;
-  font-size: 20px;
-  font-family: "Goudy Bookletter 1911", serif;
-}
+  margin-top: 15px; }
+  main form .divUsername .h3Yh4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Goudy Bookletter 1911", serif; }
 
 main form .divFormulario {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-main form .divFormulario .inputUsername {
-  min-width: 50%;
-  height: 50px;
-  text-align: center;
-}
+  margin-bottom: 30px; }
+  main form .divFormulario .inputUsername {
+    min-width: 50%;
+    height: 50px;
+    text-align: center; }
 
 main .divCuenta {
   color: black;
   text-align: center;
   font-size: 25px;
   font-family: "Goudy Bookletter 1911", serif;
-  padding-top: 30px;
-}
-
-main .divCuenta .anclaRegistrate {
-  text-decoration: none;
-  color: black;
-}
+  padding-top: 30px; }
+  main .divCuenta .anclaRegistrate {
+    text-decoration: none;
+    color: black; }
 
 .miClase {
   margin-left: 5%;
-  margin-right: 5%;
-}
-
-.miClase .divClassH2 {
-  margin-bottom: 15px;
-  padding-left: 15px;
-}
-
-.miClase .divClassH2 .h2Registrate {
-  text-align: left;
-  font-size: 30px;
-  font-family: "Goudy Bookletter 1911", serif;
-}
-
-.miClase .divParrafo {
-  padding-left: 15px;
-  color: 909090;
-  text-align: left;
-  font-family: "Goudy Bookletter 1911", serif;
-  margin-bottom: 30px;
-}
-
-.miClase form .divNombre {
-  display: flex;
-  gap: 50px;
-}
-
-.miClase form .divNombre .divNombre1 {
-  margin-bottom: 10px;
-  margin-left: 15px;
-}
-
-.miClase form .divNombre .divNombre1 .inputNombre {
-  width: 100%;
-  height: 50px;
-}
-
-.miClase form .divNombre .divNombre2 .inputNombre {
-  width: 100%;
-  height: 50px;
-}
-
-.miClase form .divCorreoElectronico {
-  margin-top: 40px;
-  margin-left: 15px;
-}
-
-.miClase form .divCorreoElectronico .inputCorreoElectronico {
-  width: 100%;
-  height: 102px;
-}
-
-.miClase .divRegistrarse {
-  text-align: center;
-  font-size: medium;
-  font-family: "Goudy Bookletter 1911", serif;
-}
-
-.miClase .divRegistrarse .parrafoRegistrarse {
-  padding-top: 50px;
-}
+  margin-right: 5%; }
+  .miClase .divClassH2 {
+    margin-bottom: 15px;
+    padding-left: 15px; }
+    .miClase .divClassH2 .h2Registrate {
+      text-align: left;
+      font-size: 30px;
+      font-family: "Goudy Bookletter 1911", serif; }
+  .miClase .divParrafo {
+    padding-left: 15px;
+    color: 909090;
+    text-align: left;
+    font-family: "Goudy Bookletter 1911", serif;
+    margin-bottom: 30px; }
+  .miClase form .divNombre {
+    display: flex;
+    gap: 50px; }
+    .miClase form .divNombre .divNombre1 {
+      margin-bottom: 10px;
+      margin-left: 15px; }
+      .miClase form .divNombre .divNombre1 .inputNombre {
+        width: 100%;
+        height: 50px; }
+    .miClase form .divNombre .divNombre2 .inputNombre {
+      width: 100%;
+      height: 50px; }
+  .miClase form .divCorreoElectronico {
+    margin-top: 40px;
+    margin-left: 15px; }
+    .miClase form .divCorreoElectronico .inputCorreoElectronico {
+      width: 100%;
+      height: 102px; }
+  .miClase .divRegistrarse {
+    text-align: center;
+    font-size: medium;
+    font-family: "Goudy Bookletter 1911", serif; }
+    .miClase .divRegistrarse .parrafoRegistrarse {
+      padding-top: 50px; }
 
 main .sectionFinal .divStrong .parrafoZapas {
   font-family: "Goudy Bookletter 1911", serif;
   font-size: 20px;
   margin-bottom: 5px;
   padding-left: 15px;
-  padding-right: 15px;
-}
+  padding-right: 15px; }
 
 main .sectionFinal div img {
-  width: 90%;
-}
+  width: 90%; }
 
 main section .h2ContactoDiv {
   margin-left: 15px;
-  margin-top: 25px;
-}
-
-main section .h2ContactoDiv .h2Contacto {
-  text-align: left;
-  font-size: 30px;
-  font-family: "Goudy Bookletter 1911", serif;
-}
+  margin-top: 25px; }
+  main section .h2ContactoDiv .h2Contacto {
+    text-align: left;
+    font-size: 30px;
+    font-family: "Goudy Bookletter 1911", serif; }
 
 main section .divContacto .parrafoContacto {
   text-align: center;
   font-size: larger;
   font-family: "Goudy Bookletter 1911", serif;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 main section .divInput {
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 15px;
-}
-
-main section .divInput .inputCorreoElectronico1 {
-  width: 80%;
-  height: 102px;
-}
+  margin-left: 15px; }
+  main section .divInput .inputCorreoElectronico1 {
+    width: 80%;
+    height: 102px; }
 
 main section .divInput .inputMensaje {
   width: 80%;
-  height: 282px;
-}
+  height: 282px; }
 
 @media (max-width: 1440px) {
-
   /* tienda.html */
   .section2 img {
-    width: 60%;
-  }
-
+    width: 60%; }
   .divProductos {
     padding-left: 10px;
-    padding-right: 10px;
-  }
-
+    padding-right: 10px; }
   .section3 .contenedor {
-    gap: 150px;
-  }
-
+    gap: 150px; }
   /* sesion.html */
   .h1Sesion {
-    padding-top: 10px;
-  }
-
+    padding-top: 10px; }
   .divInicio {
-    padding-right: 5px;
-  }
-
+    padding-right: 5px; }
   .divH2 {
-    margin-bottom: 35px;
-  }
-
+    margin-bottom: 35px; }
   .divFormulario {
     padding-bottom: 30px;
-    padding-top: 30px;
-  }
-
-  .divFormulario .inputUsername {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 50px;
-  }
-
+    padding-top: 30px; }
+    .divFormulario .inputUsername {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: 50px; }
   .divBoton {
     margin-top: 30px;
-    padding-top: 30px;
-  }
-
-  .divBoton .botonSesion {
-    font-size: 16px;
-  }
-
+    padding-top: 30px; }
+    .divBoton .botonSesion {
+      font-size: 16px; }
   .divFooterFinal {
-    font-size: 20px;
-  }
-
+    font-size: 20px; }
   /* nosycontacto.html */
   .div img {
-    width: 100%;
-  }
-
+    width: 100%; }
   .divInput .inputCorreoElectronico1 {
     width: 80%;
-    height: 102px;
-  }
-
+    height: 102px; }
   .divInput .inputMensaje {
     width: 80%;
-    height: 282px;
-  }
-
+    height: 282px; }
   /* registrate.html */
   .footerFinal {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 1250px) {
-
   /* nosycontactohtml */
   div img {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 1024px) {
-
   /* tienda.html */
   .divInicio {
-    padding-right: 50px;
-  }
-
+    padding-right: 50px; }
   .titulo {
-    padding-left: 10px;
-  }
-
+    padding-left: 10px; }
   .divProductos {
-    padding-left: 10px;
-  }
-
+    padding-left: 10px; }
   .section3 .contenedor {
-    gap: 80px;
-  }
-
+    gap: 80px; }
   .section3 div {
-    width: 300px;
-  }
-
+    width: 300px; }
   .divMarcas {
-    padding-left: 10px;
-  }
-
+    padding-left: 10px; }
   div .parrafoSneakers {
-    padding-right: 40px;
-  }
-
+    padding-right: 40px; }
   .divFooterFinal {
-    padding-left: 10px;
-  }
-
+    padding-left: 10px; }
   .hFinal {
-    padding-right: 50px;
-  }
-
+    padding-right: 50px; }
   /* sesion.html */
   .h1Sesion {
-    padding-top: 10px;
-  }
-
+    padding-top: 10px; }
   nav .divInicio {
-    padding-right: 5px;
-  }
-
+    padding-right: 5px; }
   .divH2 {
-    margin-bottom: 15px;
-  }
-
+    margin-bottom: 15px; }
   form .divFormulario {
     padding-bottom: 30px;
-    padding-top: 30px;
-  }
-
+    padding-top: 30px; }
   form .divBoton {
-    padding-top: 30px;
-  }
-
+    padding-top: 30px; }
   .divFooterFinal {
-    font-size: 20px;
-  }
-
+    font-size: 20px; }
   /* registrate.html */
   form .divNombre2 {
-    margin: 0px;
-  }
-
+    margin: 0px; }
   form .divCorreoElectronico .inputCorreoElectronico {
-    width: 80%;
-  }
-
+    width: 80%; }
   /* nosycontactohtml */
   div .imgNos {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 835px) {
-
   /* tienda.html */
   .section3 .contenedor div img {
-    width: 100px;
-  }
-}
+    width: 100px; } }
+
+.galeria {
+  height: 300px; }
 
 @media (max-width: 768px) {
-
   /*index.html */
   nav .vinculosPrincipales {
-    width: 35%;
-  }
-
+    width: 35%; }
   .divTienda .anclaTienda {
-    font-size: 30px;
-  }
-
+    font-size: 30px; }
   .porQueSneakers {
     margin-bottom: 150px;
     padding-top: 30px;
-    font-size: 19px;
-  }
-
+    font-size: 19px; }
   /* tienda.html */
   .headerTienda {
-    width: 768px;
-  }
-
+    width: 768px; }
   .galeria {
-    height: 500px;
-  }
-
+    height: 300px; }
   /*sesion.html  */
   ul .liAnclas a .imgTienda2Clase {
     width: 25px;
-    height: 25px;
-  }
-
+    height: 25px; }
   form .divBoton {
     margin-top: 5px;
-    padding-top: 5px;
-  }
-
-  form .divBoton .botonSesion {
-    font-size: 16px;
-  }
-
+    padding-top: 5px; }
+    form .divBoton .botonSesion {
+      font-size: 16px; }
   .hFinal {
     margin-top: 30px;
-    padding-right: 20px;
-  }
-
+    padding-right: 20px; }
   /* nosycontacto.html */
   section .h2ContactoDiv {
-    margin-bottom: 30px;
-  }
-
+    margin-bottom: 30px; }
   section .divContacto .parrafoContacto {
     padding-left: 20px;
-    padding-right: 20px;
-  }
-
+    padding-right: 20px; }
   section .divInput .inputCorreoElectronico1 {
-    width: 90%;
-  }
-
+    width: 90%; }
   section .divInput .inputMensaje {
-    width: 90%;
-  }
-
+    width: 90%; }
   /* registrate.html */
   form .divCorreoElectronico .inputCorreoElectronico {
-    width: 10%;
-  }
-
+    width: 10%; }
   .divRegistrarse {
-    margin-bottom: 30px;
-  }
-}
+    margin-bottom: 30px; } }
 
 @media (max-width: 740px) {
-
   /* tienda.html */
   .headerTienda {
-    width: 100%;
-  }
-}
+    width: 100%; }
+  .galeria {
+    height: 300px; } }
 
 @media (max-width: 723px) {
-
   /* index.html */
   nav .vinculosPrincipales {
-    width: 40%;
-  }
-
+    width: 40%; }
   /* tienda.html */
   .headerTienda {
-    width: 100%;
-  }
-
+    width: 100%; }
   .footerFinal {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 650px) {
-
   /* tienda.html */
   .headerTienda {
-    width: 100%;
-  }
-
+    width: 100%; }
   .footerFinal {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 621px) {
-
   /* index.html */
   nav .vinculosPrincipales {
-    width: 50%;
-  }
-
+    width: 50%; }
   /* tienda.html */
   .footerFinal {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 580px) {
-
   /* tienda.html */
   .titulo .h1Tienda {
-    margin-top: 70px;
-  }
-
+    margin-top: 70px; }
   .contenedorLis ul .liLogos {
-    margin-top: 30px;
-  }
-}
+    margin-top: 30px; } }
 
 @media (max-width: 550px) {
-
   /* nosycontactohtml */
   section .divInput .inputCorreoElectronico1 {
-    width: 130%;
-  }
-
+    width: 130%; }
   section .divInput .inputMensaje {
-    width: 130%;
-  }
-
+    width: 130%; }
   /* tienda.html */
   .footerFinal {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 500px) {
-
   /* index.html */
   nav .vinculosPrincipales {
-    width: 55%;
-  }
-
+    width: 55%; }
   /* nosycontactohtml */
   .h2Contacto {
-    text-align: center !important;
-  }
-
+    text-align: center !important; }
   /* tienda.html */
   .footerFinal {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 451px) {
-
   /* index.html */
   nav .vinculosPrincipales {
-    width: 60%;
-  }
-
+    width: 60%; }
   /* tienda.html */
   .footerFinal {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 425px) {
-
   /*index.html */
   .h1 {
-    font-size: 50px;
-  }
-
+    font-size: 50px; }
   nav .vinculosPrincipales {
-    width: 65%;
-  }
-
-  nav .vinculosPrincipales .ulNav .liHome .liClass {
-    font-size: 20px;
-  }
-
+    width: 65%; }
+    nav .vinculosPrincipales .ulNav .liHome .liClass {
+      font-size: 20px; }
   .divImage .imagenJordan {
-    height: 400px;
-  }
-
+    height: 400px; }
   .divTienda .anclaTienda {
-    font-size: 35px;
-  }
-
+    font-size: 35px; }
   .porQueSneakers {
     font-size: 25px;
     margin-top: 80px;
-    margin-bottom: 80px;
-  }
-
+    margin-bottom: 80px; }
   .logoFinal {
     font-size: 50px;
-    padding-top: 80px;
-  }
-
+    padding-top: 80px; }
   /* sesion.html */
   ul .liAnclas a .imgTienda2Clase {
     height: 25px;
-    width: 25px;
-  }
-
+    width: 25px; }
   .divH2 {
     margin-bottom: 55px;
-    margin-top: 55px;
-  }
-
+    margin-top: 55px; }
   form .divUsername .h3Yh4 {
-    font-size: 25px;
-  }
-
+    font-size: 25px; }
   form .divFormulario .inputUsername {
     width: 50%;
     height: 50px;
-    margin-bottom: 30px;
-  }
-
+    margin-bottom: 30px; }
   form .divBoton {
     margin-top: 5px;
-    padding-top: 5px;
-  }
-
-  form .divBoton .botonSesion {
-    font-size: 16px;
-  }
-
+    padding-top: 5px; }
+    form .divBoton .botonSesion {
+      font-size: 16px; }
   /* nosycontacto.html */
   .headerTienda {
     width: 100%;
-    margin-bottom: 100px;
-  }
-
+    margin-bottom: 100px; }
   div .imgNos {
     margin-bottom: 15px;
-    height: 400px;
-  }
-
+    height: 400px; }
   section .h2ContactoDiv {
-    margin-bottom: 20px;
-  }
-
+    margin-bottom: 20px; }
   section .divContacto .parrafoContacto {
     font-size: 16px;
     padding-left: 10px;
-    padding-right: 10px;
-  }
-
+    padding-right: 10px; }
   section .divInput .inputCorreoElectronico1 {
     width: 90%;
-    height: 102px;
-  }
-
+    height: 102px; }
   section .divInput .inputMensaje {
     width: 90%;
-    height: 200px;
-  }
-
+    height: 200px; }
   section .divBotonazo .botonMensaje {
     width: 40%;
-    height: 40px;
-  }
-
+    height: 40px; }
   /* tienda.html */
   .galeria {
-    display: none;
-  }
-
+    display: none; }
   .divMarcas {
-    display: none;
-  }
-
+    display: none; }
   .sectionFinal {
-    margin-top: 60px;
-  }
-
-  .sectionFinal div .parrafoSneakers {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0px;
-  }
-
+    margin-top: 60px; }
+    .sectionFinal div .parrafoSneakers {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding: 0px; }
   .footerFinal {
-    width: 100%;
-  }
-
+    width: 100%; }
   /* registrate.html */
   .miClase div {
-    margin-top: 20px;
-  }
-
+    margin-top: 20px; }
   form .divNombre {
-    gap: 10px;
-  }
-
+    gap: 10px; }
   form .divCorreoElectronico .inputCorreoElectronico {
-    width: 100%;
-  }
-
+    width: 100%; }
   .divBoton {
-    margin-top: 60px;
-  }
-}
+    margin-top: 60px; } }
 
 @media (max-width: 419px) {
-
   /* index.html */
   nav .vinculosPrincipales {
-    width: 80%;
-  }
-}
+    width: 80%; } }
 
 @media (max-width: 375px) {
-
   /*index.html */
   nav .vinculosPrincipales {
-    width: 75%;
-  }
-
-  nav .vinculosPrincipales .ulNav .liHome .liClass {
-    font-size: 20px;
-  }
-
+    width: 75%; }
+    nav .vinculosPrincipales .ulNav .liHome .liClass {
+      font-size: 20px; }
   .divTienda .anclaTienda {
-    font-size: 35px;
-  }
-
+    font-size: 35px; }
   .porQueSneakers {
     font-size: 25px;
     margin-top: 80px;
-    margin-bottom: 60px;
-  }
-
+    margin-bottom: 60px; }
   /* sesion.html */
   form .divFormulario .inputUsername {
     width: 70%;
     height: 70px;
-    font-size: 15px;
-  }
-
+    font-size: 15px; }
   form .divBoton {
     margin-top: 5px;
-    padding-top: 5px;
-  }
-
+    padding-top: 5px; }
   .divCuenta {
     padding-left: 20px;
-    padding-right: 20px;
-  }
-
+    padding-right: 20px; }
   /* tienda.html */
   div .parrafoSneakers {
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 0px;
-  }
-
+    padding: 0px; }
   .divConocenos .conocenosAncla {
-    font-size: 20px;
-  }
-
+    font-size: 20px; }
   .footerFinal {
-    width: 100%;
-  }
-
+    width: 100%; }
   /* registrate.html */
   form .divNombre .divNombre1 {
-    width: 40%;
-  }
-
+    width: 40%; }
   form .divNombre2 {
-    width: 40%;
-  }
-
+    width: 40%; }
   .divBoton {
-    margin-top: 60px;
-  }
-}
+    margin-top: 60px; } }
 
 @media (max-width: 363px) {
-
   /* index.html */
   nav .vinculosPrincipales {
-    width: 85%;
-  }
-}
+    width: 85%; } }
 
 @media (max-width: 320px) {
-
   /*index.html */
   nav .vinculosPrincipales {
-    width: 90%;
-  }
-
-  nav .vinculosPrincipales .ulNav .liHome .liClass {
-    font-size: 20px;
-  }
-
+    width: 90%; }
+    nav .vinculosPrincipales .ulNav .liHome .liClass {
+      font-size: 20px; }
   .divImage .imagenJordan {
-    height: 300px;
-  }
-
+    height: 300px; }
   .porQueSneakers {
     font-size: 20px;
     margin-top: 80px;
     margin-bottom: 50px;
     padding-right: 5px;
-    padding-left: 5px;
-  }
-
+    padding-left: 5px; }
   /* sesion.html */
   .h1Sesion {
     padding-right: 20px;
-    padding-left: 20px;
-  }
-
+    padding-left: 20px; }
   .divInicio ul .liAnclas a .imgTienda2Clase {
     width: 20px;
-    height: 20px;
-  }
-
+    height: 20px; }
   form .divFormulario .inputUsername {
-    width: 100%;
-  }
-
+    width: 100%; }
   form .divBoton {
     margin-top: 5px;
-    padding-top: 5px;
-  }
-
+    padding-top: 5px; }
   /* tienda.html */
   .titulo .h1Tienda {
     font-size: 55px;
-    text-align: center;
-  }
-
+    text-align: center; }
   .sectionFinal div .parrafoSneakers {
-    font-size: 18px;
-  }
-
+    font-size: 18px; }
   .sectionFinal .divConocenos .conocenosAncla {
-    font-size: 20px;
-  }
-
+    font-size: 20px; }
   .hFinal .h6Final {
-    font-size: 55px;
-  }
-
+    font-size: 55px; }
   /* registrate.html */
   .divBoton {
-    margin-top: 60px;
-  }
-
+    margin-top: 60px; }
   /* nosycontactohtml */
   .sectionFinal div img {
-    width: 20%;
-  }
-
+    width: 20%; }
   .footerFinal {
-    width: 100%;
-  }
-}
+    width: 100%; } }
