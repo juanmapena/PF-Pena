@@ -10,13 +10,20 @@
   margin-top: 60px; }
   .divBotonazo .botonMensaje {
     width: 275px;
-    height: 70px; }
+    height: 70px;
+    border-radius: 10px; }
+    .divBotonazo .botonMensaje:hover {
+      transform: scale(1.1);
+      transition-duration: 1.2s; }
 
-/* sesion.html */
+/* sesion.html y registrate.html */
 .divBoton {
   text-align: center;
   margin-top: 45px;
   padding-top: 5px; }
+  .divBoton button:hover {
+    transform: scale(1.1);
+    transition-duration: 1.2s; }
 
 .bodyIndex {
   background-color: black;
@@ -83,7 +90,8 @@ footer .logoFinal {
     display: flex;
     justify-content: flex-end;
     font-family: "Goudy Bookletter 1911", serif;
-    list-style: none; }
+    list-style: none;
+    padding-right: 10px; }
     .headerTienda nav .divInicio ul .liAnclas {
       display: flex;
       gap: 15px; }

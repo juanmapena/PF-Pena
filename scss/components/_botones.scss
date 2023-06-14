@@ -7,15 +7,27 @@
     .botonMensaje{
         width: 275px;
         height: 70px;
+        border-radius: 10px;
+        &:hover{
+            transform: scale(1.1);
+            transition-duration: 1.2s;
+        }
+
     }
 }
 
-/* sesion.html */
+/* sesion.html y registrate.html */
 
 .divBoton{
     text-align: center;
     margin-top: 45px;
     padding-top: 5px;
+    button{
+        &:hover{
+            transform: scale(1.1);
+            transition-duration: 1.2s;
+        }
+    }
 }
 
 
