@@ -87,8 +87,8 @@ main{
     
     .sectionFinal{
         text-align: center;
+        margin-top: 50px;
         div{ 
-            margin-top: 90px;
             .strong{
                 font-size: 30px;
                 margin-top: 15px;
@@ -106,7 +106,6 @@ main{
         .divConocenos{
             font-size: 25px;
             font-family: $letra;
-            margin-top: 30px;
             .conocenosAncla{
                 text-decoration: none;
                 background-color: black;
@@ -118,11 +117,9 @@ main{
 
 
 .galeria{
-    height: 800px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 25% 25%;
-    grid-template-rows: 50% 50%;
     grid-template-areas:
     "classJordan classImgAd classImgNike"
     "classJordan classImgJanoski classImgSb"

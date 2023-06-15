@@ -172,35 +172,31 @@ main .divMarcas {
     font-family: "Goudy Bookletter 1911", serif; }
 
 main .sectionFinal {
-  text-align: center; }
-  main .sectionFinal div {
-    margin-top: 90px; }
-    main .sectionFinal div .strong {
-      font-size: 30px;
-      margin-top: 15px;
-      margin-bottom: 15px; }
-    main .sectionFinal div .parrafoSneakers {
-      font-size: 20px;
-      font-family: "Goudy Bookletter 1911", serif;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 10px;
-      padding-right: 10px; }
+  text-align: center;
+  margin-top: 50px; }
+  main .sectionFinal div .strong {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  main .sectionFinal div .parrafoSneakers {
+    font-size: 20px;
+    font-family: "Goudy Bookletter 1911", serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; }
   main .sectionFinal .divConocenos {
     font-size: 25px;
-    font-family: "Goudy Bookletter 1911", serif;
-    margin-top: 30px; }
+    font-family: "Goudy Bookletter 1911", serif; }
     main .sectionFinal .divConocenos .conocenosAncla {
       text-decoration: none;
       background-color: black;
       color: white; }
 
 .galeria {
-  height: 800px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 25% 25%;
-  grid-template-rows: 50% 50%;
   grid-template-areas: "classJordan classImgAd classImgNike" "classJordan classImgJanoski classImgSb";
   gap: 10px;
   justify-content: center;
@@ -369,12 +365,14 @@ main .divCuenta {
     .miClase .divRegistrarse .parrafoRegistrarse {
       padding-top: 50px; }
 
-main .sectionFinal .divStrong .parrafoZapas {
-  font-family: "Goudy Bookletter 1911", serif;
-  font-size: 20px;
-  margin-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px; }
+main .sectionFinal .divStrong {
+  margin-bottom: 40px; }
+  main .sectionFinal .divStrong .parrafoZapas {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px; }
 
 main .sectionFinal div img {
   width: 90%; }
@@ -467,7 +465,7 @@ main section .divInput .inputMensaje {
     width: 300px; }
   .divMarcas {
     padding-left: 10px; }
-  div .parrafoSneakers {
+  .sectionFinal div .parrafoSneakers {
     padding-right: 40px; }
   .divFooterFinal {
     padding-left: 10px; }
@@ -501,9 +499,6 @@ main section .divInput .inputMensaje {
   .section3 .contenedor div img {
     width: 100px; } }
 
-.galeria {
-  height: 300px; }
-
 @media (max-width: 768px) {
   /*index.html */
   nav .vinculosPrincipales {
@@ -517,8 +512,6 @@ main section .divInput .inputMensaje {
   /* tienda.html */
   .headerTienda {
     width: 768px; }
-  .galeria {
-    height: 300px; }
   /*sesion.html  */
   ul .liAnclas a .imgTienda2Clase {
     width: 25px;
@@ -550,9 +543,7 @@ main section .divInput .inputMensaje {
 @media (max-width: 740px) {
   /* tienda.html */
   .headerTienda {
-    width: 100%; }
-  .galeria {
-    height: 300px; } }
+    width: 100%; } }
 
 @media (max-width: 723px) {
   /* index.html */
