@@ -1,17 +1,20 @@
 @media (max-width:451px) {
 
-/* index.html */
+    /* index.html */
 
-nav{
-    .vinculosPrincipales{
-        width: 60%;
+    nav {
+        .vinculosPrincipales {
+            width: 60%;
+        }
     }
-}
 
-/* tienda.html */
-.footerFinal{
-    width: 100%;
-}
+    /* tienda.html */
+    body {
+        .footerFinal {
+            width: 100%;
+        }
+
+    }
 
 }
 

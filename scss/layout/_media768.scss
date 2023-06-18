@@ -1,104 +1,113 @@
 @media (max-width:768px) {
-/*index.html */
+    /*index.html */
 
-nav{
-    .vinculosPrincipales{
-        width: 35%;
+    nav {
+        .vinculosPrincipales {
+            width: 35%;
+        }
     }
-}
-    
-.divTienda{
-    .anclaTienda{
-        font-size: 30px;
+
+    .divTienda {
+        .anclaTienda {
+            font-size: 30px;
+        }
     }
-}
 
-.porQueSneakers{
-    margin-bottom: 150px;
-    padding-top: 30px;
-    font-size: 19px;
-}
+    footer {
+        .porQueSneakers {
+            margin-bottom: 150px;
+            padding-top: 30px;
+            font-size: 19px;
+        }
 
-/* tienda.html */
 
-.headerTienda{
-    width: 768px;
-}
+    }
 
-// .galeria{
-// height: 300px;
+    /* tienda.html */
 
-// }
+    .headerTienda {
+        width: 768px;
+    }
 
-/*sesion.html  */
 
-ul{
-    .liAnclas{
-        a{
-            .imgTienda2Clase{
-                width: 25px;
-                height: 25px;
+    /*sesion.html  */
+
+    ul {
+        .liAnclas {
+            a {
+                .imgTienda2Clase {
+                    width: 25px;
+                    height: 25px;
+                }
             }
         }
     }
-}
 
-form{
-    .divBoton{
-        margin-top: 5px;
-        padding-top: 5px;
-        .botonSesion{
-            font-size: 16px;
+    form {
+        .divBoton {
+            margin-top: 5px;
+            padding-top: 5px;
+
+            .botonSesion {
+                font-size: 16px;
+            }
         }
     }
-}
 
-.hFinal{
-    margin-top: 30px;
-    padding-right: 20px;
-}
-
-
-/* nosycontacto.html */
-
-section{
-    .h2ContactoDiv{
-        margin-bottom: 30px;
-    }
-    .divContacto{
-        .parrafoContacto{
-            padding-left: 20px;
+    .footerFinal {
+        .hFinal {
+            margin-top: 30px;
             padding-right: 20px;
         }
+
     }
-    .divInput{
-        .inputCorreoElectronico1{
-            width: 90%;
+
+
+
+    /* nosycontacto.html */
+
+    section {
+        .h2ContactoDiv {
+            margin-bottom: 30px;
         }
-        .inputMensaje{
-            width: 90%; 
+
+        .divContacto {
+            .parrafoContacto {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+
+        .divInput {
+            .inputCorreoElectronico1 {
+                width: 90%;
+            }
+
+            .inputMensaje {
+                width: 90%;
+            }
         }
     }
-}
 
-/* registrate.html */
+    /* registrate.html */
 
-form{
-    .divCorreoElectronico{
-        .inputCorreoElectronico{
-            width: 10%;
+    main {
+        form {
+            .divCorreoElectronico {
+                .inputCorreoElectronico {
+                    width: 10%;
+                }
+            }
         }
+
+
+        .divRegistrarse {
+            margin-bottom: 30px;
+        }
+
     }
-}
-
-
-.divRegistrarse{
-    margin-bottom: 30px;
-}
 
 }
-
-
 
 
 

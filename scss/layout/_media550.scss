@@ -1,24 +1,30 @@
 @media (max-width:550px) {
 
-/* nosycontactohtml */
+    /* nosycontactohtml */
 
 
-section{
-.divInput{
-    .inputCorreoElectronico1{
-        width: 130%;
-    }
-    .inputMensaje{
-        width: 130%; 
+    section {
+        .divInput {
+            .inputCorreoElectronico1 {
+                width: 130%;
+            }
+
+            .inputMensaje {
+                width: 130%;
+            }
         }
     }
-}
 
 
 
-/* tienda.html */
-.footerFinal{
-    width: 100%;
-}
+    /* tienda.html */
+
+    body {
+        .footerFinal {
+            width: 100%;
+        }
+
+    }
+
 
 }

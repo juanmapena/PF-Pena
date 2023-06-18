@@ -1,25 +1,30 @@
 @media (max-width:500px) {
 
-/* index.html */
-nav{
-    .vinculosPrincipales{
-        width: 55%; 
+    /* index.html */
+    nav {
+        .vinculosPrincipales {
+            width: 55%;
+        }
     }
-}
 
 
-/* nosycontactohtml */
-     
-.h2Contacto{
-    text-align: center !important;
-}
+    /* nosycontactohtml */
+
+    .h2ContactoDiv {
+        .h2Contacto {
+            text-align: center !important;
+        }
+
+    }
 
 
+    /* tienda.html */
+    body {
+        .footerFinal {
+            width: 100%;
+        }
 
-/* tienda.html */
-.footerFinal{
-    width: 100%;
-}
+    }
 
 
 }

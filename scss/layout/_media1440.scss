@@ -1,91 +1,97 @@
 @media (max-width:1440px) {
 
-/* tienda.html */
+    /* tienda.html */
 
-.section2{
-    img{
-        width: 60%;
-    }
-}
+    main {
+        .divProductos {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
-.divProductos{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.section3{
-    .contenedor{
-        gap: 150px;
-    }
-}
-
-/* sesion.html */
-
-.h1Sesion{
-    padding-top: 10px;
-}
-
-.divInicio{
-    padding-right: 5px;
-}
-
-.divH2{
-    margin-bottom: 35px;
-}
-
-.divFormulario{
-    padding-bottom: 30px;
-    padding-top: 30px;
-    .inputUsername{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 50px;
+        .section3 {
+            .contenedor {
+                gap: 150px;
+            }
+        }
 
     }
-}
 
-.divBoton{
-    margin-top: 30px;
-    padding-top: 30px;
-    .botonSesion{
-        font-size: 16px;
+    /* sesion.html */
+
+    header {
+        nav {
+            .divInicio {
+                padding-right: 10px;
+            }
+        }
     }
-}
 
-.divFooterFinal{
-    font-size: 20px;
-}
+    main {
+        .divH2 {
+            margin-bottom: 35px;
+        }
+
+        form {
+            .divFormulario {
+                padding-bottom: 30px;
+                padding-top: 30px;
+
+                .inputUsername {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    height: 50px;
+
+                }
+            }
+
+            .divBoton {
+                margin-top: 30px;
+                padding-top: 30px;
+
+                .botonSesion {
+                    font-size: 16px;
+                }
+            }
 
 
-/* nosycontacto.html */
+        }
+    }
 
-.div{
-    img{
+    .footerFinal {
+        .divFooterFinal {
+            font-size: 20px;
+        }
+
+    }
+
+    /* nosycontacto.html */
+
+    .div {
+        img {
+            width: 100%;
+        }
+    }
+
+    .divInput {
+        .inputCorreoElectronico1 {
+            width: 80%;
+            height: 102px;
+        }
+    }
+
+    .divInput {
+        .inputMensaje {
+            width: 80%;
+            height: 282px;
+        }
+    }
+
+
+    /* registrate.html */
+
+    .footerFinal {
         width: 100%;
     }
-}
-
-.divInput{
-    .inputCorreoElectronico1{
-        width: 80%;
-        height: 102px;
-    }
-}
-
-.divInput{
-    .inputMensaje{
-        width: 80%;
-        height: 282px;
-    }
-}
-
-
-/* registrate.html */
-
-.footerFinal{
-    width: 100%;
-}
 
 
 }
-
