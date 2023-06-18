@@ -575,7 +575,7 @@ main section .divInput .inputMensaje {
   }
 
   main .section3 .contenedor {
-    gap: 150px;
+    gap: auto;
   }
 
   /* sesion.html */
@@ -653,10 +653,6 @@ main section .divInput .inputMensaje {
 
   main .divProductos {
     padding-left: 10px;
-  }
-
-  main .section3 .contenedor {
-    gap: 80px;
   }
 
   main .divMarcas {
@@ -742,8 +738,8 @@ main section .divInput .inputMensaje {
   }
 
   /* tienda.html */
-  .headerTienda {
-    width: 768px;
+  body .headerTienda {
+    width: 100%;
   }
 
   /*sesion.html  */
